@@ -154,12 +154,12 @@ ${notes ? `• Détails : ${notes}` : ''}`;
               {language === 'ar' ? (
                 <>
                   أعمال الرفع الطوبوغرافي، المسح العقاري، توقيع المشاريع، <br className="hidden sm:inline" />
-                  وشبكات VRD عبر كامل التراب الوطني.
+                  وحساب الحفر والردم بولاية ميلة والشرق الجزائري.
                 </>
               ) : (
                 <>
                   Levés topographiques, sécurisation foncière, implantation d&apos;ouvrages <br className="hidden sm:inline" />
-                  et réseaux VRD à travers tout le territoire national.
+                  et VRD à Mila, Constantine et dans l&apos;Est algérien.
                 </>
               )}
             </p>
@@ -171,19 +171,19 @@ ${notes ? `• Détails : ${notes}` : ''}`;
               <button
                 type="button"
                 onClick={() => setIsQuoteOpen(true)}
-                className="bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white font-bold text-xs sm:text-sm px-6 py-3 rounded-xl shadow-lg shadow-orange-500/25 hover:shadow-orange-500/40 hover:-translate-y-0.5 active:translate-y-0 transition-all flex items-center justify-center gap-2 cursor-pointer"
+                className="bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white font-extrabold text-xs sm:text-sm px-6 py-3.5 rounded-xl shadow-lg shadow-orange-500/25 hover:shadow-orange-500/40 hover:-translate-y-0.5 active:translate-y-0 transition-all flex items-center justify-center gap-2 cursor-pointer"
               >
                 <FileText className="w-4 h-4 shrink-0" />
-                <span>{language === 'ar' ? 'اطلب عرض سعر' : 'DEMANDER UN DEVIS'}</span>
+                <span>{language === 'ar' ? 'طلب تسعيرة فورية' : 'DEMANDER UN DEVIS'}</span>
               </button>
 
               {/* Secondary Button: EXPLORE PROJECTS */}
               <a 
                 href="/galerie" 
-                className="bg-slate-900/90 hover:bg-slate-800 text-slate-200 hover:text-white border border-slate-700 hover:border-slate-500 font-bold text-xs sm:text-sm px-5 py-3 rounded-xl hover:-translate-y-0.5 transition-all flex items-center justify-center gap-2"
+                className="bg-slate-900/80 hover:bg-slate-800 text-slate-300 hover:text-white border border-slate-700 hover:border-orange-500/50 font-semibold text-xs sm:text-sm px-5 py-3.5 rounded-xl hover:-translate-y-0.5 transition-all flex items-center justify-center gap-2"
               >
                 <ImageIcon className="w-4 h-4 text-slate-400 shrink-0" />
-                <span>{language === 'ar' ? 'اكتشف مشاريعنا' : 'DÉCOUVRIR NOS PROJETS'}</span>
+                <span>{language === 'ar' ? 'استكشاف المشاريع والعتاد' : 'DÉCOUVRIR NOS PROJETS'}</span>
               </a>
 
             </div>
@@ -205,7 +205,7 @@ ${notes ? `• Détails : ${notes}` : ''}`;
                   {language === 'ar' ? 'معدات GNSS دقيقة' : 'Équipements GNSS de Précision'}
                 </h4>
                 <p className="text-slate-400 text-[11px] sm:text-xs mt-0.5 leading-normal break-words">
-                  {language === 'ar' ? 'لنتائج موثوقة وذات جودة عالية' : 'Résultats certifiés de haute précision'}
+                  {language === 'ar' ? 'تقنية Leica السويسرية المعتمدة' : 'Instrumentation suisse Leica certifiée'}
                 </p>
               </div>
             </div>
@@ -217,25 +217,25 @@ ${notes ? `• Détails : ${notes}` : ''}`;
               </div>
               <div className="min-w-0 flex-1 text-start">
                 <h4 className="text-white font-bold text-xs sm:text-sm leading-snug break-words">
-                  {language === 'ar' ? 'خبرة ميدانية' : 'Expertise Terrain Validée'}
+                  {language === 'ar' ? 'مهندس معتمد لدى الدولة' : 'Ingénieur Agréé par l\'État'}
                 </h4>
                 <p className="text-slate-400 text-[11px] sm:text-xs mt-0.5 leading-normal break-words">
-                  {language === 'ar' ? 'فريق متخصص ومؤهل' : 'Équipe d\'ingénieurs et techniciens'}
+                  {language === 'ar' ? 'مخططات مطابقة للمعايير الرسمية' : 'Dossiers conformes aux normes cadastrales'}
                 </p>
               </div>
             </div>
 
-            {/* Badge 3: تغطية وطنية */}
+            {/* Badge 3: ميلة والشرق الجزائري */}
             <div className="flex items-center gap-3 p-3 sm:p-3.5 rounded-xl bg-slate-900/70 border border-slate-800/80 hover:border-orange-500/40 transition-colors backdrop-blur-sm min-w-0">
               <div className="w-10 h-10 min-w-[40px] max-w-[40px] rounded-xl bg-orange-500/10 border border-orange-500/20 text-orange-500 flex items-center justify-center shrink-0">
                 <Map className="w-5 h-5 shrink-0" />
               </div>
               <div className="min-w-0 flex-1 text-start">
                 <h4 className="text-white font-bold text-xs sm:text-sm leading-snug break-words">
-                  {language === 'ar' ? 'تغطية وطنية' : 'Couverture Nationale'}
+                  {language === 'ar' ? 'ميلة والشرق الجزائري' : 'Mila & Tout l\'Est Algérien'}
                 </h4>
                 <p className="text-slate-400 text-[11px] sm:text-xs mt-0.5 leading-normal break-words">
-                  {language === 'ar' ? 'عبر كامل التراب الوطني' : 'Intervention sur tout le territoire national'}
+                  {language === 'ar' ? 'تدخل سريع والمشاريع الكبرى عبر الوطن' : 'Intervention rapide et mégachantiers'}
                 </p>
               </div>
             </div>

@@ -137,8 +137,8 @@ export default function MaterielSection() {
                         <span className="text-slate-500 dark:text-slate-400 font-medium">
                           {language === 'ar' ? sp.labelAr : sp.labelFr}
                         </span>
-                        <strong className="text-slate-900 dark:text-white font-mono font-bold text-xs mt-1">
-                          {sp.value}
+                        <strong className="text-slate-900 dark:text-white font-medium text-xs mt-1">
+                          {language === 'ar' ? sp.valueAr : sp.valueFr}
                         </strong>
                       </div>
                     ))}

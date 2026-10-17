@@ -9,65 +9,70 @@ export default function ContactCta() {
   const { language, isRtl } = useLanguage();
 
   return (
-    <section className="contact-cta py-24 sm:py-32 relative overflow-hidden flex items-center justify-center">
+    <section className="contact-cta py-20 sm:py-28 relative overflow-hidden flex items-center justify-center">
       
       {/* Background Topo Lines */}
       <div className="absolute inset-0 opacity-15 pointer-events-none bg-[radial-gradient(#ffffff_1px,transparent_1px)] [background-size:28px_28px]"></div>
       
-      <div className="relative z-10 max-w-[1320px] mx-auto px-4 sm:px-8 flex items-center justify-center">
+      <div className="relative z-10 max-w-[1320px] mx-auto px-4 sm:px-8 flex items-center justify-center w-full">
         
-        {/* Geomexpert Signature Circular Orbit Disc Container */}
-        <div className="disc bg-white/10 backdrop-blur-xl border border-white/25 shadow-2xl shadow-orange-950/40">
+        {/* Signature Circular Orbit Disc Container */}
+        <div className="disc bg-white/10 backdrop-blur-xl border border-white/25 shadow-2xl shadow-orange-950/40 p-8 sm:p-12 rounded-3xl max-w-3xl w-full text-center">
           
           {/* Eyebrow */}
-          <span className="text-xs font-bold uppercase tracking-[0.22em] text-orange-200 mb-4">
+          <span className="inline-block text-xs font-bold uppercase tracking-[0.22em] text-orange-200 mb-3">
             {language === 'ar' ? 'استشارة هندسية سريعة' : 'PRENEZ CONTACT AVEC NOTRE BUREAU'}
           </span>
 
-          {/* Heading with Serif Italic Em */}
+          {/* Heading */}
           <h2 className="text-2xl sm:text-4xl md:text-5xl font-extrabold text-white leading-tight mb-4 tracking-tight">
             {language === 'ar' ? (
               <>
                 هل لديك مشروع عقاري أو طبوغرافي؟ <br />
-                <em className="font-serif italic font-normal text-white drop-shadow">فلنتشاور معاً الآن.</em>
+                <span className="font-serif italic font-normal text-orange-200">فلنتشاور معاً الآن</span>
               </>
             ) : (
               <>
                 Un projet de mesure ou de VRD ? <br />
-                <em className="font-serif italic font-normal text-white drop-shadow">Échangeons dès aujourd'hui.</em>
+                <span className="font-serif italic font-normal text-orange-200">Échangeons dès aujourd'hui</span>
               </>
             )}
           </h2>
 
           {/* Subtext */}
-          <p className="text-sm sm:text-base text-white/90 max-w-md leading-relaxed mb-8">
+          <p className="text-sm sm:text-base text-white/90 max-w-xl mx-auto leading-relaxed mb-8">
             {language === 'ar'
-              ? 'مكتب SETAU يضمن لك دراسة فنية دقيقة وتسليم المخططات في أقرب الآجال عبر كامل التراب الوطني.'
-              : 'Notre équipe d\'ingénieurs et techniciens géomètres répond à vos besoins sous 48h partout en Algérie.'}
+              ? 'مكتب SETAU بوادي العثمانية يضمن لك دراسة فنية دقيقة وتسليم المخططات في أقرب الآجال مع مرافقة تقنية شاملة.'
+              : 'Notre équipe d\'ingénieurs et techniciens géomètres répond à vos besoins sous 48h à Mila et dans tout l\'Est algérien.'}
           </p>
 
-          {/* Action Row: Bouncing Arrow Button + Hotline */}
-          <div className="flex flex-col sm:flex-row items-center gap-4">
+          {/* Action Row: CTA Button + Direct Hotline */}
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-5">
             
             <a 
               href="#contact"
-              className="arrow-circle-bouncing group"
-              title={language === 'ar' ? 'طلب تسعيرة' : 'Demander un devis'}
+              className="inline-flex items-center justify-center gap-3 px-7 py-3.5 rounded-full bg-white text-orange-600 hover:bg-orange-50 font-extrabold text-sm sm:text-base shadow-xl shadow-orange-950/20 hover:scale-105 active:scale-95 transition-all group"
             >
-              <ArrowUpRight className={`w-8 h-8 text-orange-600 group-hover:scale-125 transition-transform ${isRtl ? '-scale-x-100' : ''}`} />
+              <span>{language === 'ar' ? 'طلب تسعيرة فورية' : 'Demander un devis'}</span>
+              <div className="w-7 h-7 rounded-full bg-orange-600 text-white flex items-center justify-center group-hover:bg-orange-700 transition-colors">
+                <ArrowUpRight className={`w-4 h-4 ${isRtl ? '-scale-x-100' : ''}`} />
+              </div>
             </a>
 
-            <div className="text-center sm:text-start text-white">
-              <div className="text-xs uppercase font-bold text-orange-200 tracking-wider">
-                {language === 'ar' ? 'اتصال مباشر بالسيد صالحي كريم' : 'Ligne directe M. Karim Salhi'}
+            <div className="flex items-center gap-3 text-white bg-black/20 backdrop-blur-sm px-5 py-2.5 rounded-full border border-white/15">
+              <Phone className="w-4 h-4 text-orange-300" />
+              <div className="text-start">
+                <span className="text-[10px] uppercase font-bold text-orange-200 tracking-wider block">
+                  {language === 'ar' ? 'اتصال مباشر بالمهندس' : 'Ligne directe'}
+                </span>
+                <a 
+                  href={`tel:${CABINET_CONFIG.phone1Raw}`}
+                  className="text-sm sm:text-base font-mono font-bold hover:underline"
+                  dir="ltr"
+                >
+                  {CABINET_CONFIG.phone1}
+                </a>
               </div>
-              <a 
-                href={`tel:${CABINET_CONFIG.phone1Raw}`}
-                className="text-lg sm:text-xl font-mono font-black hover:underline"
-                dir="ltr"
-              >
-                {CABINET_CONFIG.phone1}
-              </a>
             </div>
 
           </div>

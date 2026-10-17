@@ -106,7 +106,7 @@ export default function GaleriePage() {
         <MaterielSection />
 
         {/* 2. Full 66 Field Projects & Real Photos Archive with Lightbox */}
-        <AllProjectsGallery />
+        <AllProjectsGallery isFullPage={true} />
 
         {/* 3. Circular Orbit CTA Section */}
         <ContactCta />

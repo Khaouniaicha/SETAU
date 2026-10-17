@@ -5,7 +5,6 @@ import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import ServicesExactSection from '@/components/ServicesExactSection';
 import AboutSection from '@/components/AboutSection';
-import SectorsSection from '@/components/SectorsSection';
 import MaterielSection from '@/components/MaterielSection';
 import AllProjectsGallery from '@/components/AllProjectsGallery';
 import StatsSection from '@/components/StatsSection';
@@ -37,9 +36,6 @@ export default function HomePage() {
 
         {/* 4. À Propos de SETAU: Geomexpert 2-column About Grid & Credentials */}
         <AboutSection />
-
-        {/* 4. Sectors & Services: Geomexpert 3-column Sector Cards with Real Field Photos */}
-        <SectorsSection onSelectService={(service) => setSelectedService(service)} />
 
         {/* 5. Matériel & Instrumentation de Pointe (Leica) avec descriptions détaillées */}
         <MaterielSection />
