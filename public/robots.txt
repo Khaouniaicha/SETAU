@@ -1,0 +1,6 @@
+# SETAU Topographie - Oued Athmania, Mila
+# Robots.txt
+User-agent: *
+Allow: /
+
+Sitemap: https://setau-topographie.dz/sitemap.xml

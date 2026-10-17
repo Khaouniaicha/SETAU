@@ -131,8 +131,9 @@ export default function AllProjectsGallery() {
 
                 {/* Card Text Content (Geomexpert dark banner) */}
                 <div className="p-5 bg-[#090d16] text-white flex flex-col justify-between">
-                  <div className="text-[11px] font-mono font-bold text-orange-400 uppercase tracking-wider mb-1.5">
-                    {language === 'ar' ? proj.categoryAr : proj.categoryFr}
+                  <div className="flex items-center justify-between text-[11px] font-mono font-bold text-orange-400 uppercase tracking-wider mb-1.5 gap-2">
+                    <span className="truncate">{language === 'ar' ? proj.categoryAr : proj.categoryFr}</span>
+                    <span className="text-slate-400 font-sans font-medium text-[11px] shrink-0 bg-white/5 px-2 py-0.5 rounded-full">{proj.wilaya}</span>
                   </div>
                   <h4 className="text-base font-bold text-white group-hover:text-orange-400 transition-colors leading-snug line-clamp-2">
                     {language === 'ar' ? proj.titleAr : proj.titleFr}
@@ -140,7 +141,7 @@ export default function AllProjectsGallery() {
                   <div className="mt-4 pt-3 border-t border-white/10 flex items-center justify-between text-xs text-slate-300">
                     <span className="text-[11px]">SETAU • Topo</span>
                     <span className="inline-flex items-center gap-1 font-bold text-orange-400">
-                      <span>{language === 'ar' ? 'تكبير الصورة' : 'DÉTAILS'}</span>
+                      <span>{language === 'ar' ? 'عرض التفاصيل' : 'DÉTAILS'}</span>
                       <ArrowRight className={`w-3.5 h-3.5 ${isRtl ? 'rotate-180' : ''}`} />
                     </span>
                   </div>
@@ -205,17 +206,22 @@ export default function AllProjectsGallery() {
                 />
                 
                 {/* Overlay on hover */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-4 text-white">
-                  <span className="text-[10px] font-mono font-bold text-orange-400 uppercase tracking-widest mb-1">
-                    {language === 'ar' ? img.categoryAr : img.categoryFr}
-                  </span>
+                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-3.5 text-white">
+                  <div className="flex items-center justify-between gap-1.5 mb-1">
+                    <span className="text-[10px] font-mono font-bold text-orange-400 uppercase tracking-widest truncate">
+                      {language === 'ar' ? img.categoryAr : img.categoryFr}
+                    </span>
+                    <span className="text-[9px] font-semibold text-slate-300 bg-white/15 px-2 py-0.5 rounded-full shrink-0">
+                      {img.wilaya}
+                    </span>
+                  </div>
                   <h4 className="text-xs sm:text-sm font-bold text-white line-clamp-2 leading-tight">
                     {language === 'ar' ? img.titleAr : img.titleFr}
                   </h4>
                   <div className="mt-2 flex items-center justify-between text-[11px] text-slate-300">
-                    <span>SETAU • #{img.id.replace('img-', '')}</span>
-                    <span className="p-1 rounded-full bg-orange-600 text-white">
-                      <Maximize2 className="w-3.5 h-3.5" />
+                    <span className="text-[10px] font-mono text-slate-400">SETAU • #{img.id.replace('img-', '')}</span>
+                    <span className="p-1 rounded-full bg-orange-600 text-white shadow-sm">
+                      <Maximize2 className="w-3 h-3" />
                     </span>
                   </div>
                 </div>
@@ -313,14 +319,27 @@ export default function AllProjectsGallery() {
 
           {/* Bottom Caption */}
           <div 
-            className="max-w-3xl mx-auto text-center text-white bg-slate-900/80 backdrop-blur-md p-4 rounded-2xl border border-white/10 z-10"
+            className="max-w-3xl mx-auto text-center text-white bg-slate-900/90 backdrop-blur-md p-4 sm:p-5 rounded-2xl border border-white/10 z-10 shadow-2xl space-y-2"
             onClick={(e) => e.stopPropagation()}
           >
-            <h3 className="text-base sm:text-lg font-bold text-white mb-1">
+            <div className="flex items-center justify-center gap-2 flex-wrap">
+              <span className="px-2.5 py-0.5 rounded-full bg-orange-600/30 border border-orange-500/40 text-orange-400 text-xs font-bold font-mono">
+                {language === 'ar' ? activePhoto.categoryAr : activePhoto.categoryFr}
+              </span>
+              <span className="px-2.5 py-0.5 rounded-full bg-slate-800 text-slate-300 text-xs font-semibold">
+                📍 {activePhoto.wilaya}
+              </span>
+              <span className="px-2.5 py-0.5 rounded-full bg-slate-800/80 text-slate-400 text-xs font-mono">
+                #{activePhoto.id}
+              </span>
+            </div>
+
+            <h3 className="text-base sm:text-lg font-extrabold text-white">
               {language === 'ar' ? activePhoto.titleAr : activePhoto.titleFr}
             </h3>
-            <p className="text-xs sm:text-sm text-slate-300">
-              {language === 'ar' ? activePhoto.categoryAr : activePhoto.categoryFr} • SETAU
+
+            <p className="text-xs sm:text-sm text-slate-300 leading-relaxed max-w-2xl mx-auto">
+              {language === 'ar' ? activePhoto.descAr : activePhoto.descFr}
             </p>
           </div>
         </div>

@@ -31,13 +31,24 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://setau-topographie.dz'),
-  title: "Bureau d'Études Topographie et Aménagement Urbain SETAU | Oued Athmania Mila",
-  description: "Bureau d'études techniques travaux topographie et aménagement urbain SETAU à Oued Athmania, Wilaya de Mila. Levé & implantation, calcul de cubatures de terrassement, VRD, bornage et division de terrain. Tél: 0670 20 58 47.",
+  title: {
+    default: "Bureau d'Études Topographie et Aménagement Urbain SETAU | Oued Athmania Mila",
+    template: "%s | SETAU Topographie",
+  },
+  description: "Bureau d'études techniques travaux topographie et aménagement urbain SETAU à Oued Athmania, Wilaya de Mila. Levé & implantation, calcul de cubatures de terrassement, VRD, bornage et division de terrain. Ingénieur Karim Salhi. Tél: 0670 20 58 47.",
   manifest: '/manifest.json',
   icons: {
     icon: '/favicon.ico',
     shortcut: '/favicon.ico',
     apple: '/ogef-logo.png',
+  },
+  alternates: {
+    canonical: 'https://setau-topographie.dz',
+    languages: {
+      'ar': 'https://setau-topographie.dz',
+      'fr': 'https://setau-topographie.dz',
+      'x-default': 'https://setau-topographie.dz',
+    },
   },
   keywords: [
     "bureau d'études topographie et aménagement urbain",
@@ -76,20 +87,89 @@ export default function RootLayout({
     '@context': 'https://schema.org',
     '@type': 'ProfessionalService',
     'name': "Bureau d'études techniques travaux topographie et aménagement urbain SETAU",
-    'description': "Bureau d'études topographiques, calculs de cubatures, voirie et réseaux divers (VRD), bornage et aménagement urbain à Oued Athmania, Wilaya de Mila.",
+    'alternateName': [
+      "SETAU Topographie",
+      "مكتب دراسات في الطوبوغرافيا والتهيئة العمرانية SETAU"
+    ],
+    'url': 'https://setau-topographie.dz',
+    'description': "Bureau d'études techniques et travaux topographiques, calculs de cubatures de terrassement, VRD, bornage et aménagement urbain à Oued Athmania, Wilaya de Mila.",
     'telephone': '+213670205847',
     'email': 'karimsalhitopo1@gmail.com',
+    'founder': {
+      '@type': 'Person',
+      'name': 'Karim Salhi',
+      'jobTitle': 'Ingénieur Géomètre Topographe',
+      'telephone': '+213670205847'
+    },
     'address': {
       '@type': 'PostalAddress',
       'streetAddress': 'Centre Ville',
       'addressLocality': 'Oued Athmania',
       'addressRegion': 'Wilaya de Mila',
+      'postalCode': '43003',
       'addressCountry': 'DZ',
     },
     'geo': {
       '@type': 'GeoCoordinates',
       'latitude': 36.2467,
       'longitude': 6.2867,
+    },
+    'areaServed': [
+      { '@type': 'AdministrativeArea', 'name': 'Mila' },
+      { '@type': 'AdministrativeArea', 'name': 'Oued Athmania' },
+      { '@type': 'AdministrativeArea', 'name': 'Constantine' },
+      { '@type': 'AdministrativeArea', 'name': 'Sétif' },
+      { '@type': 'AdministrativeArea', 'name': 'Jijel' },
+      { '@type': 'AdministrativeArea', 'name': 'El Tarf' },
+      { '@type': 'AdministrativeArea', 'name': 'Ghardaïa' },
+      { '@type': 'AdministrativeArea', 'name': 'Ouargla' },
+      { '@type': 'Country', 'name': 'Algérie' }
+    ],
+    'hasOfferCatalog': {
+      '@type': 'OfferCatalog',
+      'name': 'Services Topographiques et Aménagement Urbain',
+      'itemListElement': [
+        {
+          '@type': 'Offer',
+          'itemOffered': {
+            '@type': 'Service',
+            'name': 'Levé & Implantation Topographique (الرفع والتوقيع الميداني)',
+            'description': 'Levés de détails, polygonation rattachée et implantation de haute précision.'
+          }
+        },
+        {
+          '@type': 'Offer',
+          'itemOffered': {
+            '@type': 'Service',
+            'name': 'Calcul de Cubatures de Terrassement (حساب كميات الحفر والردم)',
+            'description': 'Modélisation numérique de terrain (MNT), calcul de volumes déblais/remblais et suivi de carrières.'
+          }
+        },
+        {
+          '@type': 'Offer',
+          'itemOffered': {
+            '@type': 'Service',
+            'name': 'Voirie & Réseaux Divers - VRD (الطرق والشبكات المختلفة)',
+            'description': 'Études topographiques, profils en long et en travers pour routes, assainissement et AEP.'
+          }
+        },
+        {
+          '@type': 'Offer',
+          'itemOffered': {
+            '@type': 'Service',
+            'name': 'Bornage & Division Parcellaire (تحديد وتقسيم الأراضي)',
+            'description': 'Délimitation de propriété, plans de partage, morcellement et dossiers conformes aux normes cadastrales.'
+          }
+        },
+        {
+          '@type': 'Offer',
+          'itemOffered': {
+            '@type': 'Service',
+            'name': 'Auscultation & Suivi Géométrique d\'Ouvrages (متابعة ورصد المنشآت)',
+            'description': 'Contrôle métrologique de verticalité et auscultation millimétrique de structures de génie civil.'
+          }
+        }
+      ]
     },
     'openingHoursSpecification': {
       '@type': 'OpeningHoursSpecification',

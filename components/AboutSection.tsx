@@ -29,8 +29,8 @@ export default function AboutSection() {
             </span>
             <span className="tags hidden sm:inline">
               {language === 'ar' 
-                ? 'مهندس معتمد • دقة مليمترية • تغطية وطنية شاملة' 
-                : 'GÉOMÈTRE TOPOGRAPHE AGRÉÉ • PRÉCISION MILLIMÉTRIQUE'}
+                ? 'مهندس معتمد لدى الدولة • دقة هندسية عالية • تغطية وطنية' 
+                : 'INGÉNIEUR GÉOMÈTRE AGRÉÉ • HAUTE PRÉCISION • COUVERTURE NATIONALE'}
             </span>
           </div>
           <h2>
@@ -136,10 +136,10 @@ export default function AboutSection() {
                 </div>
                 <div>
                   <h4 className="font-bold text-sm text-slate-900 dark:text-white">
-                    {language === 'ar' ? 'مهندس معتمد رسمياً' : 'Agrément Officiel d\'État'}
+                    {language === 'ar' ? 'مهندس معتمد لدى الدولة' : 'Agrément Officiel d\'État'}
                   </h4>
                   <p className="text-xs text-slate-500 dark:text-slate-400 mt-0.5">
-                    {language === 'ar' ? 'مخططات ومحاضر معترف بها قانونياً' : 'Documents recevables cadastre & justice'}
+                    {language === 'ar' ? 'مخططات ومحاضر تقنية مطابقة للإجراءات المعمول بها' : 'Dossiers techniques conformes aux normes cadastrales en vigueur'}
                   </p>
                 </div>
               </div>
@@ -150,10 +150,10 @@ export default function AboutSection() {
                 </div>
                 <div>
                   <h4 className="font-bold text-sm text-slate-900 dark:text-white">
-                    {language === 'ar' ? 'تجهيزات GNSS متطورة' : 'Équipement GNSS RTK'}
+                    {language === 'ar' ? 'تجهيزات GNSS ومحطة شاملة' : 'Équipement GNSS & Station Totale'}
                   </h4>
                   <p className="text-xs text-slate-500 dark:text-slate-400 mt-0.5">
-                    {language === 'ar' ? 'دقة مليمترية في الرفع والتوقيع' : 'Précision millimétrique certifiée'}
+                    {language === 'ar' ? 'دقة قياس عالية مطابقة لمواصفات Leica السويسرية' : 'Haute précision selon spécifications Leica Geosystems'}
                   </p>
                 </div>
               </div>

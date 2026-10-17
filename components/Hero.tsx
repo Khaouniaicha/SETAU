@@ -28,31 +28,45 @@ export default function Hero() {
   const [wilaya, setWilaya] = useState('ميلة');
   const [notes, setNotes] = useState('');
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const [phoneError, setPhoneError] = useState('');
 
   const handleQuickQuoteSubmit = (channel: 'whatsapp' | 'email') => {
-    if (!fullName || !phone) {
-      alert(language === 'ar' ? 'يرجى إدخال الاسم ورقم الهاتف على الأقل.' : 'Veuillez saisir votre nom et votre numéro de téléphone.');
+    if (!fullName.trim()) {
+      setPhoneError(language === 'ar' ? 'يرجى إدخال الاسم أو اسم المؤسسة' : 'Veuillez saisir votre nom');
       return;
     }
+    const cleanPhone = phone.replace(/[\s\-\.]/g, '');
+    if (!cleanPhone || cleanPhone.length < 9) {
+      setPhoneError(language === 'ar' ? 'يرجى إدخال رقم هاتف جزائري صالح (05 / 06 / 07)' : 'Numéro de téléphone invalide');
+      return;
+    }
+    setPhoneError('');
 
-    const text = `طلب عرض سعر رسمي - مكتب الدراسات SETAU
+    const text = language === 'ar'
+      ? `طلب عرض سعر رسمي - مكتب الدراسات SETAU
 • المعني / المؤسسة: ${fullName}
 • رقم الهاتف: ${phone}
 • الخدمة المطلوبة: ${serviceType}
-• الولاية / الموقع: ${wilaya}
-${notes ? `• تفاصيل إضافية: ${notes}` : ''}`;
+• الولاية / الموقع: ${wilaya || 'ميلة'}
+${notes ? `• تفاصيل إضافية: ${notes}` : ''}`
+      : `DEMANDE DE DEVIS OFFICIEL - BUREAU SETAU
+• Demandeur : ${fullName}
+• Téléphone : ${phone}
+• Prestation : ${serviceType}
+• Wilaya / Lieu : ${wilaya || 'Mila'}
+${notes ? `• Détails : ${notes}` : ''}`;
 
     if (channel === 'whatsapp') {
       window.open(`https://wa.me/${CABINET_CONFIG.whatsappNumber}?text=${encodeURIComponent(text)}`, '_blank');
     } else {
-      window.location.href = `mailto:${CABINET_CONFIG.email}?subject=${encodeURIComponent('Demande de Devis - Bureau SETAU')}&body=${encodeURIComponent(text)}`;
+      window.location.href = `mailto:${CABINET_CONFIG.email}?subject=${encodeURIComponent(language === 'ar' ? `طلب عرض سعر - ${fullName}` : `Demande de Devis - ${fullName}`)}&body=${encodeURIComponent(text)}`;
     }
 
     setIsSubmitted(true);
     setTimeout(() => {
       setIsSubmitted(false);
       setIsQuoteOpen(false);
-    }, 2500);
+    }, 3000);
   };
 
   return (
@@ -306,11 +320,23 @@ ${notes ? `• تفاصيل إضافية: ${notes}` : ''}`;
                     type="tel"
                     required
                     value={phone}
-                    onChange={(e) => setPhone(e.target.value)}
+                    onChange={(e) => {
+                      setPhone(e.target.value);
+                      if (phoneError) setPhoneError('');
+                    }}
                     placeholder="06.. .. .. .."
                     dir="ltr"
-                    className="w-full px-3.5 py-2.5 rounded-xl bg-slate-900 border border-slate-700 focus:border-orange-500 text-white text-sm outline-none transition-all placeholder:text-slate-500 font-mono text-start"
+                    className={`w-full px-3.5 py-2.5 rounded-xl bg-slate-900 border text-white text-sm outline-none transition-all placeholder:text-slate-500 font-mono text-start ${
+                      phoneError
+                        ? 'border-rose-500 focus:border-rose-500'
+                        : 'border-slate-700 focus:border-orange-500'
+                    }`}
                   />
+                  {phoneError && (
+                    <p className="text-xs text-rose-500 font-semibold mt-1">
+                      {phoneError}
+                    </p>
+                  )}
                 </div>
 
                 {/* Service & Wilaya Grid */}

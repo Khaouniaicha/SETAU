@@ -32,6 +32,7 @@ export default function ContactSection({ selectedService }: ContactSectionProps)
   
   const [submitted, setSubmitted] = useState(false);
   const [copied, setCopied] = useState(false);
+  const [phoneError, setPhoneError] = useState('');
 
   useEffect(() => {
     if (selectedService) {
@@ -39,22 +40,36 @@ export default function ContactSection({ selectedService }: ContactSectionProps)
     }
   }, [selectedService]);
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!fullName || !phone) {
-      alert(language === 'ar' ? 'يرجى إدخال الاسم ورقم الهاتف على الأقل.' : 'Veuillez renseigner votre nom et votre numéro de téléphone.');
-      return;
-    }
-    setSubmitted(true);
-  };
-
-  const formattedQuoteText = `DEMANDE DE DEVIS / ÉTUDE TECHNIQUE - BUREAU SETAU :
+  const formattedQuoteText = language === 'ar'
+    ? `طلب عرض سعر ودراسة تقنية - مكتب SETAU
+• الاسم / المؤسسة: ${fullName}
+• رقم الهاتف: ${phone}
+• البريد الإلكتروني: ${email || 'غير محدد'}
+• الخدمة المطلوبة: ${prestation || 'الرفع الطوبوغرافي'}
+• الولاية / الموقع: ${location || 'وادي العثمانية، ميلة'}
+• تفاصيل المشروع: ${message || 'لا توجد ملاحظات إضافية'}`
+    : `DEMANDE DE DEVIS / ÉTUDE TECHNIQUE - BUREAU SETAU :
 • Client / Entreprise : ${fullName}
 • Téléphone : ${phone}
 • Email : ${email || 'Non renseigné'}
-• Prestation souhaitée : ${prestation || 'Non spécifiée'}
+• Prestation souhaitée : ${prestation || 'Levé topographique'}
 • Lieu du projet : ${location || 'Oued Athmania / Mila'}
 • Description / Détails : ${message || 'Aucun détail supplémentaire'}`;
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    const cleanPhone = phone.replace(/[\s\-\.]/g, '');
+    if (!cleanPhone || cleanPhone.length < 9) {
+      setPhoneError(language === 'ar' ? 'يرجى إدخال رقم هاتف جزائري صالح (05 / 06 / 07)' : 'Veuillez saisir un numéro de téléphone valide');
+      return;
+    }
+    setPhoneError('');
+    setSubmitted(true);
+    
+    // Automatically open WhatsApp with pre-filled message
+    const url = `https://wa.me/${CABINET_CONFIG.whatsappNumber}?text=${encodeURIComponent(formattedQuoteText)}`;
+    window.open(url, '_blank');
+  };
 
   const handleWhatsAppSend = () => {
     const url = `https://wa.me/${CABINET_CONFIG.whatsappNumber}?text=${encodeURIComponent(formattedQuoteText)}`;
@@ -66,7 +81,7 @@ export default function ContactSection({ selectedService }: ContactSectionProps)
   };
 
   const handleEmailSend = () => {
-    const subject = encodeURIComponent(`Demande de Devis Topographie - ${fullName}`);
+    const subject = encodeURIComponent(language === 'ar' ? `طلب عرض سعر طبوغرافي - ${fullName}` : `Demande de Devis Topographie - ${fullName}`);
     const body = encodeURIComponent(formattedQuoteText);
     window.location.href = `mailto:${CABINET_CONFIG.email}?subject=${subject}&body=${body}`;
   };
@@ -142,11 +157,23 @@ export default function ContactSection({ selectedService }: ContactSectionProps)
                       type="tel"
                       required
                       value={phone}
-                      onChange={(e) => setPhone(e.target.value)}
+                      onChange={(e) => {
+                        setPhone(e.target.value);
+                        if (phoneError) setPhoneError('');
+                      }}
                       placeholder="06 XX XX XX XX"
                       dir="ltr"
-                      className="w-full px-4 py-3 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-white text-sm focus:outline-none focus:ring-2 focus:ring-orange-500 transition-all font-mono"
+                      className={`w-full px-4 py-3 rounded-xl border bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-white text-sm focus:outline-none focus:ring-2 font-mono transition-all ${
+                        phoneError 
+                          ? 'border-rose-500 focus:ring-rose-500' 
+                          : 'border-slate-300 dark:border-slate-700 focus:ring-orange-500'
+                      }`}
                     />
+                    {phoneError && (
+                      <p className="text-xs text-rose-500 font-semibold mt-1">
+                        {phoneError}
+                      </p>
+                    )}
                   </div>
                 </div>
 
@@ -235,12 +262,12 @@ export default function ContactSection({ selectedService }: ContactSectionProps)
 
                 <div>
                   <h3 className="text-xl font-bold text-slate-900 dark:text-white">
-                    {language === 'ar' ? 'تم تجهيز طلبك بنجاح!' : 'Demande générée avec succès !'}
+                    {language === 'ar' ? 'تم تجهيز وتوجيه طلبك بنجاح!' : 'Demande transmise avec succès !'}
                   </h3>
                   <p className="text-sm text-slate-600 dark:text-slate-400 mt-2 max-w-md mx-auto">
                     {language === 'ar'
-                      ? 'يمكنك الآن إرسال طلبك مباشرة للمهندس عبر واتساب، ماسنجر أو الاتصال به هاتفياً.'
-                      : 'Transmettez directement vos éléments à M. Karim Salhi via WhatsApp, Messenger ou appel téléphonique direct.'}
+                      ? 'تم تجهيز نص طلبك لإرساله مباشرة للمهندس صالحي كريم (+213670205847). يمكنك تأكيد الإرسال عبر أي من القنوات التالية:'
+                      : 'Votre demande est prête à être transmise à M. Karim Salhi (+213670205847). Choisissez votre canal de transmission préféré :'}
                   </p>
                 </div>
 
@@ -251,22 +278,22 @@ export default function ContactSection({ selectedService }: ContactSectionProps)
                     className="py-3.5 px-4 rounded-xl bg-[#25D366] hover:bg-[#20ba59] text-white font-bold text-sm flex items-center justify-center gap-2 shadow-lg shadow-green-600/25 transition-all"
                   >
                     <MessageCircle className="w-5 h-5 fill-current" />
-                    <span>WhatsApp Instantané</span>
+                    <span>WhatsApp (مباشر)</span>
                   </button>
 
                   <button
-                    onClick={handleMessengerSend}
-                    className="py-3.5 px-4 rounded-xl bg-[#0084FF] hover:bg-[#0074e0] text-white font-bold text-sm flex items-center justify-center gap-2 shadow-lg shadow-blue-600/25 transition-all"
+                    onClick={handleEmailSend}
+                    className="py-3.5 px-4 rounded-xl bg-orange-600 hover:bg-orange-500 text-white font-bold text-sm flex items-center justify-center gap-2 shadow-lg shadow-orange-600/25 transition-all"
                   >
-                    <MessageSquare className="w-5 h-5" />
-                    <span>Facebook Messenger</span>
+                    <Mail className="w-4 h-4" />
+                    <span>{language === 'ar' ? 'إرسال عبر الإيميل' : 'Par E-mail'}</span>
                   </button>
 
                   <a
                     href={`tel:${CABINET_CONFIG.phone1Raw}`}
-                    className="py-3.5 px-4 rounded-xl bg-orange-600 hover:bg-orange-500 text-white font-bold text-sm flex items-center justify-center gap-2 shadow-lg shadow-orange-600/25 transition-all"
+                    className="py-3.5 px-4 rounded-xl bg-slate-800 hover:bg-slate-700 text-white font-bold text-sm flex items-center justify-center gap-2 shadow-sm transition-all font-mono"
                   >
-                    <Phone className="w-4 h-4" />
+                    <Phone className="w-4 h-4 text-orange-400" />
                     <span>{CABINET_CONFIG.phone1}</span>
                   </a>
 
@@ -275,7 +302,7 @@ export default function ContactSection({ selectedService }: ContactSectionProps)
                     className="py-3.5 px-4 rounded-xl border-2 border-slate-300 dark:border-slate-700 text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 font-bold text-sm flex items-center justify-center gap-2 transition-all"
                   >
                     <Copy className="w-4 h-4" />
-                    <span>{copied ? (language === 'ar' ? 'تم النسخ!' : 'Copié !') : (language === 'ar' ? 'نسخ النص' : 'Copier le résumé')}</span>
+                    <span>{copied ? (language === 'ar' ? 'تم النسخ!' : 'Copié !') : (language === 'ar' ? 'نسخ نص الطلب' : 'Copier le résumé')}</span>
                   </button>
                 </div>
 

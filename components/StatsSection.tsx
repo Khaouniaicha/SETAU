@@ -8,24 +8,24 @@ export default function StatsSection() {
 
   const STATS = [
     {
-      num: '100+',
-      labelAr: 'مشروع وورشة منجزة بنجاح عبر الوطن',
-      labelFr: 'Chantiers majeurs & études techniques',
+      num: '66+',
+      labelAr: 'ورشة موثقة وأشغال منجزة في مختلف الولايات',
+      labelFr: 'Chantiers et interventions de terrain documentés',
     },
     {
-      num: '±2mm',
-      labelAr: 'دقة قياس مليمترية بأجهزة GNSS RTK',
-      labelFr: 'Précision métrologique certifiée',
+      num: 'Leica',
+      labelAr: 'دقة قياس عالية بأجهزة المحطة الشاملة وGNSS RTK',
+      labelFr: 'Haute précision métrologique Leica Geosystems',
     },
     {
       num: '48h',
-      labelAr: 'سرعة التدخل الميداني واستخراج المخططات',
-      labelFr: 'Délai moyen d\'intervention terrain',
+      labelAr: 'استجابة سريعة وتحديد مواعيد المعاينة الميدانية',
+      labelFr: 'Délai moyen d\'intervention et réactivité terrain',
     },
     {
       num: '100%',
-      labelAr: 'مطابقة تامة للمحافظة العقارية والقوانين',
-      labelFr: 'Conformité juridique & cadastrale',
+      labelAr: 'مطابقة تامة للمواصفات التقنية والمعايير المعتمدة',
+      labelFr: 'Rigueur technique & conformité aux normes',
     },
   ];
 
