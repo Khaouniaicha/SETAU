@@ -1,0 +1,25 @@
+{
+  "name": "Bureau d'Études Techniques Travaux Topographie SETAU - Karim Salhi",
+  "short_name": "SETAU Topographie",
+  "description": "Bureau d'études techniques travaux topographie et aménagement urbain SETAU à Oued Athmania, Wilaya de Mila. Ingénieur Agréé par l'État Salhi Karim.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#080c14",
+  "theme_color": "#ea580c",
+  "icons": [
+    {
+      "src": "/ogef-logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/ogef-logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

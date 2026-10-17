@@ -1,0 +1,472 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-bg-page: #f8f9fa;
+    --color-bg-card: #ffffff;
+    --color-border: #fed7aa;
+    --color-text-main: #0f172a;
+    --color-text-muted: #64748b;
+    --color-accent: #ea580c;
+    --c-orange: #ea580c;
+    --c-orange-soft: #f97316;
+    --c-orange-deep: #c2410c;
+    --c-slate-deep: #0f172a;
+    --c-slate-darker: #090d16;
+    --grad-orange: linear-gradient(135deg, #ea580c 0%, #c2410c 100%);
+    --font-serif-editor: var(--font-serif-display), 'Playfair Display', 'Bauer Bodoni', 'Didot', Georgia, serif;
+  }
+
+  .dark {
+    --color-bg-page: #090d16;
+    --color-bg-card: #0f172a;
+    --color-border: #334155;
+    --color-text-main: #f8fafc;
+    --color-text-muted: #94a3b8;
+    --color-accent: #f97316;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 85px;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    background-color: var(--color-bg-page);
+    color: var(--color-text-main);
+    overflow-x: hidden;
+    font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  html[dir="rtl"] body {
+    font-family: var(--font-cairo), system-ui, sans-serif;
+  }
+}
+
+/* ==========================================================
+   GEOMEXPERT EDITORIAL & PILL DESIGN SYSTEM (ORANGE & BLANC)
+   ========================================================== */
+
+/* Section Rules and Headings */
+.section-head {
+  margin-bottom: 3.5rem;
+}
+
+.section-head .rule {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-bottom: 0.85rem;
+  border-bottom: 1px solid rgba(234, 88, 12, 0.25);
+  margin-bottom: 1.75rem;
+}
+
+.dark .section-head .rule {
+  border-bottom-color: rgba(255, 255, 255, 0.15);
+}
+
+.section-head .eyebrow {
+  font-size: 0.8125rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #ea580c;
+}
+
+.section-head .tags {
+  font-size: 0.875rem;
+  color: #64748b;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+}
+
+.dark .section-head .tags {
+  color: #94a3b8;
+}
+
+.section-head h2 {
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.025em;
+  color: #0f172a;
+}
+
+.dark .section-head h2 {
+  color: #f8fafc;
+}
+
+.section-head h2 em,
+h1 em,
+.hero-title em {
+  font-family: var(--font-serif-editor);
+  font-style: italic;
+  font-weight: 500;
+  color: #ea580c;
+  font-size: 1.12em;
+  line-height: 1;
+}
+
+/* Geomexpert Pill Button */
+.pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.875rem;
+  height: 52px;
+  padding: 0 1.5rem 0 0.5rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  cursor: pointer;
+  transition: all 0.22s cubic-bezier(0.23, 1, 0.32, 1);
+  text-decoration: none;
+  user-select: none;
+}
+
+html[dir="rtl"] .pill {
+  padding: 0 0.5rem 0 1.5rem;
+}
+
+.pill .dot {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.22s cubic-bezier(0.23, 1, 0.32, 1);
+  flex-shrink: 0;
+}
+
+.pill:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px -5px rgba(234, 88, 12, 0.35);
+}
+
+.pill:hover .dot {
+  transform: scale(1.08);
+}
+
+.pill:active {
+  transform: scale(0.98);
+}
+
+/* Pill Variants */
+.pill--orange {
+  background: #ea580c;
+  color: #ffffff;
+}
+
+.pill--orange .dot {
+  background: #ffffff;
+  color: #ea580c;
+}
+
+.pill--white {
+  background: #ffffff;
+  color: #0f172a;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.pill--white:hover {
+  background: #fff7ed;
+  color: #ea580c;
+}
+
+.pill--white .dot {
+  background: #ea580c;
+  color: #ffffff;
+}
+
+.pill--ghost {
+  background: transparent;
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.pill--ghost:hover {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: #ffffff;
+}
+
+.pill--ghost .dot {
+  background: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+}
+
+/* Floating Bottom-Right Scroll Disc */
+.scroll-disc {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  background: #ea580c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-decoration: none;
+  transition: transform 0.25s cubic-bezier(0.23, 1, 0.32, 1), background 0.25s ease;
+  box-shadow: 0 10px 30px rgba(234, 88, 12, 0.45);
+}
+
+.scroll-disc:hover {
+  transform: scale(1.06);
+  background: #c2410c;
+}
+
+.scroll-disc:active {
+  transform: scale(0.95);
+}
+
+/* Geomexpert Sector Cards */
+.sector-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+@media (max-width: 1024px) {
+  .sector-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .sector-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.sector {
+  background: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid rgba(234, 88, 12, 0.15);
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.04);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.25s cubic-bezier(0.23, 1, 0.32, 1), box-shadow 0.25s ease;
+}
+
+.dark .sector {
+  background: #0f172a;
+  border-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.sector:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 32px -8px rgba(234, 88, 12, 0.22);
+  border-color: #ea580c;
+}
+
+.sector .illo {
+  height: 210px;
+  position: relative;
+  overflow: hidden;
+  background: #f1f5f9;
+}
+
+.sector .illo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.45s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.sector:hover .illo img {
+  transform: scale(1.06);
+}
+
+.sector .badge-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: #ea580c;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(234, 88, 12, 0.3);
+}
+
+/* Geomexpert Real Carousel Track */
+.real-carousel {
+  position: relative;
+  overflow: hidden;
+}
+
+.real-carousel-track {
+  display: flex;
+  gap: 1.5rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  padding: 1rem 0.5rem 2rem;
+  scrollbar-width: none;
+}
+
+.real-carousel-track::-webkit-scrollbar {
+  display: none;
+}
+
+.real-card {
+  flex: 0 0 calc((100% - 3rem) / 3);
+  scroll-snap-align: start;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #ffffff;
+  border: 1px solid rgba(234, 88, 12, 0.15);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.dark .real-card {
+  background: #0f172a;
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.real-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 32px rgba(234, 88, 12, 0.2);
+}
+
+@media (max-width: 1024px) {
+  .real-card {
+    flex: 0 0 calc((100% - 1.5rem) / 2);
+  }
+}
+
+@media (max-width: 640px) {
+  .real-card {
+    flex: 0 0 85%;
+  }
+}
+
+/* Stats Section */
+.stats {
+  background: var(--grad-orange);
+  color: #ffffff;
+  position: relative;
+  overflow: hidden;
+}
+
+.stats .stat-jewel {
+  font-family: var(--font-serif-editor);
+  font-style: italic;
+  font-weight: 500;
+  font-size: clamp(3.5rem, 6.5vw, 6.5rem);
+  line-height: 0.9;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+/* Circular Orbit CTA Section */
+.contact-cta {
+  background: var(--grad-orange);
+  color: #ffffff;
+  position: relative;
+  overflow: hidden;
+}
+
+.contact-cta .disc {
+  width: min(580px, 92vw);
+  height: min(580px, 92vw);
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2.5rem;
+}
+
+.contact-cta .disc::before {
+  content: "";
+  position: absolute;
+  inset: -12px;
+  border-radius: 50%;
+  border: 1px dashed rgba(255, 255, 255, 0.45);
+  animation: disc-orbit 50s linear infinite;
+  pointer-events: none;
+}
+
+@keyframes disc-orbit {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.arrow-circle-bouncing {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: #ffffff;
+  color: #ea580c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+  animation: arrow-bob 3s ease-in-out infinite alternate;
+  transition: transform 0.2s ease;
+}
+
+.arrow-circle-bouncing:hover {
+  transform: scale(1.1);
+}
+
+@keyframes arrow-bob {
+  0% {
+    transform: translateX(-4px);
+  }
+  100% {
+    transform: translateX(4px);
+  }
+}
+
+/* Glowing Surveyor Orange animation */
+@keyframes orangeGlow {
+  0%, 100% {
+    opacity: 1;
+    box-shadow: 0 0 20px rgba(234, 88, 12, 0.4);
+  }
+  50% {
+    opacity: 0.7;
+    box-shadow: 0 0 35px rgba(234, 88, 12, 0.7);
+  }
+}
+
+.animate-orange-glow {
+  animation: orangeGlow 2.5s ease-in-out infinite;
+}
+
+/* Custom scrollbar in Orange & White */
+::-webkit-scrollbar {
+  width: 9px;
+  height: 9px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ea580c;
+  border-radius: 9999px;
+  border: 2px solid #ffffff;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #c2410c;
+}
