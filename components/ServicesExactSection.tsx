@@ -94,11 +94,11 @@ export default function ServicesExactSection({ onSelectService }: ServicesExactS
   ];
 
   return (
-    <section id="services" className="py-16 md:py-24 bg-white dark:bg-[#0a0f1d] border-b border-slate-100 dark:border-slate-800 transition-colors">
+    <section id="services" className="pt-10 sm:pt-14 pb-16 sm:pb-24 bg-white dark:bg-[#0a0f1d] border-b border-slate-100 dark:border-slate-800 transition-colors">
       <div className="max-w-[1320px] mx-auto px-4 sm:px-8">
         
         {/* Section Header */}
-        <div className="text-center max-w-3xl mx-auto mb-12 sm:mb-16">
+        <div className="text-center max-w-3xl mx-auto mb-10 sm:mb-14">
           <div className="inline-flex items-center gap-3 text-orange-500 font-bold text-xs sm:text-sm tracking-widest uppercase mb-2">
             <span className="w-8 h-0.5 bg-orange-500"></span>
             <span>{language === 'ar' ? 'الخدمات الأساسية للمكتب' : 'DOMAINES D\'EXPERTISE'}</span>

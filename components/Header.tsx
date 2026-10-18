@@ -236,17 +236,10 @@ export default function Header() {
             </div>
 
             <a 
-              href="/#services"
-              className="text-sm font-medium text-slate-300 hover:text-orange-400 py-1 transition-colors"
-            >
-              <span>{language === 'ar' ? 'العقار' : 'Foncier'}</span>
-            </a>
-
-            <a 
               href="/galerie"
               className="text-sm font-medium text-slate-300 hover:text-orange-400 py-1 transition-colors"
             >
-              <span>{language === 'ar' ? 'المشاريع' : 'Projets'}</span>
+              <span>{language === 'ar' ? 'المشاريع والعتاد' : 'Projets & Matériel'}</span>
             </a>
 
             <a 
@@ -257,13 +250,13 @@ export default function Header() {
             </a>
           </nav>
 
-          {/* Left CTA: Quick Hotline + QR vCard + Language Switcher + Orange Pill Button */}
-          <div className="flex items-center gap-2 sm:gap-3">
+          {/* Clean Action Cluster: Compact Language Switcher + Primary Quote Button */}
+          <div className="flex items-center gap-2.5 sm:gap-3.5">
             
-            {/* Quick Hotline on Large Screens */}
+            {/* Quick Hotline: Clean & Subtle on Very Large Screens Only */}
             <a
               href={`tel:${CABINET_CONFIG.phone1Raw}`}
-              className="hidden xl:inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-slate-900/80 border border-slate-800 text-slate-300 hover:text-orange-400 hover:border-orange-500/40 text-xs font-mono transition-all"
+              className="hidden 2xl:inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-slate-900/80 border border-slate-800 text-slate-300 hover:text-orange-400 hover:border-orange-500/40 text-xs font-mono transition-all"
               dir="ltr"
               title={language === 'ar' ? 'اتصال مباشر بالمكتب' : 'Appeler directement'}
             >
@@ -271,17 +264,7 @@ export default function Header() {
               <span>0670 20 58 47</span>
             </a>
 
-            {/* QR vCard Button */}
-            <button
-              onClick={() => setQrModalOpen(true)}
-              title={language === 'ar' ? 'بطاقة الاتصال الذكية (vCard QR)' : 'Carte de contact vCard QR'}
-              className="hidden sm:inline-flex items-center justify-center w-8 h-8 rounded-full bg-slate-900 border border-slate-800 text-slate-300 hover:text-orange-400 hover:border-orange-500/50 transition-all cursor-pointer"
-              aria-label="vCard QR Code"
-            >
-              <QrCode className="w-4 h-4" />
-            </button>
-
-            {/* Language Switcher with Orange Active Pill */}
+            {/* Compact 2-Option Language Switcher (AR / FR) */}
             <div className="inline-flex items-center bg-slate-900/90 rounded-full p-0.5 text-[11px] font-bold border border-slate-800">
               <button
                 onClick={() => setLanguage('ar')}
@@ -290,6 +273,7 @@ export default function Header() {
                     ? 'bg-orange-500 text-white shadow-sm'
                     : 'text-slate-400 hover:text-white'
                 }`}
+                aria-label="النسخة العربية"
               >
                 العربية
               </button>
@@ -300,36 +284,29 @@ export default function Header() {
                     ? 'bg-orange-500 text-white shadow-sm'
                     : 'text-slate-400 hover:text-white'
                 }`}
+                aria-label="Version Française"
               >
                 FR
               </button>
-              <button
-                onClick={() => setLanguage('en')}
-                className={`px-2.5 py-1 rounded-full transition-all ${
-                  language === 'en'
-                    ? 'bg-orange-500 text-white shadow-sm'
-                    : 'text-slate-400 hover:text-white'
-                }`}
-              >
-                EN
-              </button>
             </div>
 
+            {/* Primary Action Button: Prominent & High-Contrast */}
             <a 
               href="/#contact"
-              className="bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white font-bold text-xs sm:text-sm px-4 sm:px-5 py-2 sm:py-2.5 rounded-full shadow-lg shadow-orange-500/25 transition-all flex items-center gap-2 group shrink-0"
+              className="bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white font-extrabold text-xs sm:text-sm px-4 sm:px-5 py-2 sm:py-2.5 rounded-full shadow-lg shadow-orange-500/25 hover:shadow-orange-500/40 hover:-translate-y-0.5 active:translate-y-0 transition-all flex items-center gap-2 group shrink-0"
+              aria-label={language === 'ar' ? 'طلب تسعيرة' : 'Demander un devis'}
             >
-              <FileText className="w-4 h-4" />
+              <FileText className="w-4 h-4 shrink-0" />
               <span>{language === 'ar' ? 'طلب تسعيرة' : 'DEMANDER UN DEVIS'}</span>
             </a>
 
-            {/* Mobile Hamburger Toggle */}
+            {/* Mobile Hamburger Toggle with Accessible Touch Target */}
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="lg:hidden p-2 rounded-xl border border-slate-800 text-slate-300 hover:text-orange-400 hover:border-orange-500 transition-colors"
-              aria-label="Menu"
+              className="lg:hidden p-2 rounded-xl border border-slate-800 text-slate-300 hover:text-orange-400 hover:border-orange-500 transition-colors flex items-center justify-center min-w-[38px] min-h-[38px]"
+              aria-label={mobileMenuOpen ? 'Fermer le menu' : 'Ouvrir le menu'}
             >
-              {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+              {mobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
             </button>
           </div>
         </div>

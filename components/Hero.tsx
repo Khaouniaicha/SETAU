@@ -71,11 +71,11 @@ ${notes ? `• Détails : ${notes}` : ''}`;
 
   return (
     <>
-      <section className="relative w-full overflow-hidden bg-[#080c14] text-white pt-4 sm:pt-6 lg:pt-8 pb-6 sm:pb-8 lg:pb-10">
+      <section className="relative w-full overflow-hidden bg-[#080D18] text-[#F5F7FA] pt-3 sm:pt-5 lg:pt-6 pb-4 sm:pb-5 lg:pb-7">
         
         {/* ==============================================================
             SURVEYOR ENGINEER AS FULL BACKGROUND ON THE LEFT
-            (Exact visual as shown in user target mockup)
+            Lightened central gradient so the surveyor & vest are clear
             ============================================================== */}
         <div className="absolute inset-y-0 left-0 w-full lg:w-[50%] xl:w-[55%] z-0 pointer-events-none select-none overflow-hidden">
           <div className="relative w-full h-full">
@@ -87,9 +87,9 @@ ${notes ? `• Détails : ${notes}` : ''}`;
               sizes="(max-width: 1024px) 100vw, 55vw"
               className="object-cover object-left"
             />
-            {/* Cinematic Gradient Fade: Seamless blend into dark right side */}
-            <div className="absolute inset-0 bg-gradient-to-t from-[#080c14] via-[#080c14]/75 to-[#080c14]/40 lg:hidden"></div>
-            <div className="absolute inset-0 bg-gradient-to-r from-transparent via-[#080c14]/40 to-[#080c14] hidden lg:block"></div>
+            {/* Soft, natural gradient: light in the center, seamless dark blend right under text */}
+            <div className="absolute inset-0 bg-gradient-to-t from-[#080D18] via-[#080D18]/65 to-black/20 lg:hidden"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-transparent via-[#080D18]/25 to-[#080D18] hidden lg:block"></div>
           </div>
         </div>
 
@@ -125,26 +125,26 @@ ${notes ? `• Détails : ${notes}` : ''}`;
             </div>
             
             {/* Sub-eyebrow Location */}
-            <p className="text-slate-400 text-xs sm:text-sm mb-2.5 ps-9">
+            <p className="text-slate-400 text-xs sm:text-sm mb-2 ps-9">
               {language === 'ar' ? 'وادي العثمانية، ولاية ميلة' : 'Oued Athmania, Wilaya de Mila'}
             </p>
 
-            {/* Massive Bold Headline with Vertical Spacing Between Lines */}
-            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-[2.65rem] xl:text-[2.85rem] font-extrabold text-white leading-[1.22] sm:leading-[1.2] tracking-tight mb-3">
+            {/* Headline: Clean, calibrated size (~8% tighter) with softened harmonious accent */}
+            <h1 className="text-2xl sm:text-3xl md:text-[2.1rem] lg:text-[2.35rem] xl:text-[2.55rem] font-extrabold text-[#F5F7FA] leading-[1.22] sm:leading-[1.18] tracking-tight mb-3">
               {language === 'ar' ? (
                 <>
                   <span className="block mb-1 sm:mb-1.5">الدقة الطبوغرافية</span>
-                  <span>أساس كل مشروع <span className="text-orange-500">ناجح</span></span>
+                  <span>أساس كل مشروع <span className="text-orange-400 font-extrabold">ناجح</span></span>
                 </>
               ) : language === 'fr' ? (
                 <>
                   <span className="block mb-1 sm:mb-1.5">La Précision Topographique</span>
-                  <span>Socle de Tout Projet <span className="text-orange-500">Réussi</span></span>
+                  <span>Socle de Tout Projet <span className="text-orange-400 font-extrabold">Réussi</span></span>
                 </>
               ) : (
                 <>
                   <span className="block mb-1 sm:mb-1.5">Topographical Precision</span>
-                  <span>Foundation of Every <span className="text-orange-500">Success</span></span>
+                  <span>Foundation of Every <span className="text-orange-400 font-extrabold">Success</span></span>
                 </>
               )}
             </h1>
@@ -193,48 +193,48 @@ ${notes ? `• Détails : ${notes}` : ''}`;
           {/* ==============================================================
               BOTTOM TRUST BADGES: 3 Columns with min-w-0 flex-1
               ============================================================== */}
-          <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-3 sm:gap-3.5 lg:gap-4 pt-4 sm:pt-5 border-t border-slate-800/80">
+          <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-3 sm:gap-3.5 lg:gap-4 pt-3 sm:pt-4 border-t border-slate-800/80">
             
             {/* Badge 1: معدات GNSS دقيقة */}
-            <div className="flex items-center gap-3 p-3 sm:p-3.5 rounded-xl bg-slate-900/70 border border-slate-800/80 hover:border-orange-500/40 transition-colors backdrop-blur-sm min-w-0">
-              <div className="w-10 h-10 min-w-[40px] max-w-[40px] rounded-xl bg-orange-500/10 border border-orange-500/20 text-orange-500 flex items-center justify-center shrink-0">
-                <Radio className="w-5 h-5 shrink-0" />
+            <div className="flex items-center gap-3 p-3.5 sm:p-4 rounded-xl bg-[#101A2B] border border-slate-800/90 hover:border-orange-500/50 shadow-md shadow-black/40 transition-all min-w-0 h-full">
+              <div className="w-11 h-11 min-w-[44px] max-w-[44px] rounded-xl bg-orange-500/10 border border-orange-500/25 text-[#F56612] flex items-center justify-center shrink-0">
+                <Radio className="w-5 h-5 shrink-0" strokeWidth={2} />
               </div>
               <div className="min-w-0 flex-1 text-start">
-                <h4 className="text-white font-bold text-xs sm:text-sm leading-snug break-words">
+                <h4 className="text-[#F5F7FA] font-extrabold text-xs sm:text-sm leading-snug break-words">
                   {language === 'ar' ? 'معدات GNSS دقيقة' : 'Équipements GNSS de Précision'}
                 </h4>
-                <p className="text-slate-400 text-[11px] sm:text-xs mt-0.5 leading-normal break-words">
+                <p className="text-slate-300 text-[11px] sm:text-xs mt-0.5 leading-normal break-words font-medium">
                   {language === 'ar' ? 'تقنية Leica السويسرية المعتمدة' : 'Instrumentation suisse Leica certifiée'}
                 </p>
               </div>
             </div>
 
             {/* Badge 2: خبرة ميدانية */}
-            <div className="flex items-center gap-3 p-3 sm:p-3.5 rounded-xl bg-slate-900/70 border border-slate-800/80 hover:border-orange-500/40 transition-colors backdrop-blur-sm min-w-0">
-              <div className="w-10 h-10 min-w-[40px] max-w-[40px] rounded-xl bg-orange-500/10 border border-orange-500/20 text-orange-500 flex items-center justify-center shrink-0">
-                <HardHat className="w-5 h-5 shrink-0" />
+            <div className="flex items-center gap-3 p-3.5 sm:p-4 rounded-xl bg-[#101A2B] border border-slate-800/90 hover:border-orange-500/50 shadow-md shadow-black/40 transition-all min-w-0 h-full">
+              <div className="w-11 h-11 min-w-[44px] max-w-[44px] rounded-xl bg-orange-500/10 border border-orange-500/25 text-[#F56612] flex items-center justify-center shrink-0">
+                <HardHat className="w-5 h-5 shrink-0" strokeWidth={2} />
               </div>
               <div className="min-w-0 flex-1 text-start">
-                <h4 className="text-white font-bold text-xs sm:text-sm leading-snug break-words">
+                <h4 className="text-[#F5F7FA] font-extrabold text-xs sm:text-sm leading-snug break-words">
                   {language === 'ar' ? 'مهندس معتمد لدى الدولة' : 'Ingénieur Agréé par l\'État'}
                 </h4>
-                <p className="text-slate-400 text-[11px] sm:text-xs mt-0.5 leading-normal break-words">
+                <p className="text-slate-300 text-[11px] sm:text-xs mt-0.5 leading-normal break-words font-medium">
                   {language === 'ar' ? 'مخططات مطابقة للمعايير الرسمية' : 'Dossiers conformes aux normes cadastrales'}
                 </p>
               </div>
             </div>
 
             {/* Badge 3: ميلة والشرق الجزائري */}
-            <div className="flex items-center gap-3 p-3 sm:p-3.5 rounded-xl bg-slate-900/70 border border-slate-800/80 hover:border-orange-500/40 transition-colors backdrop-blur-sm min-w-0">
-              <div className="w-10 h-10 min-w-[40px] max-w-[40px] rounded-xl bg-orange-500/10 border border-orange-500/20 text-orange-500 flex items-center justify-center shrink-0">
-                <Map className="w-5 h-5 shrink-0" />
+            <div className="flex items-center gap-3 p-3.5 sm:p-4 rounded-xl bg-[#101A2B] border border-slate-800/90 hover:border-orange-500/50 shadow-md shadow-black/40 transition-all min-w-0 h-full">
+              <div className="w-11 h-11 min-w-[44px] max-w-[44px] rounded-xl bg-orange-500/10 border border-orange-500/25 text-[#F56612] flex items-center justify-center shrink-0">
+                <Map className="w-5 h-5 shrink-0" strokeWidth={2} />
               </div>
               <div className="min-w-0 flex-1 text-start">
-                <h4 className="text-white font-bold text-xs sm:text-sm leading-snug break-words">
+                <h4 className="text-[#F5F7FA] font-extrabold text-xs sm:text-sm leading-snug break-words">
                   {language === 'ar' ? 'ميلة والشرق الجزائري' : 'Mila & Tout l\'Est Algérien'}
                 </h4>
-                <p className="text-slate-400 text-[11px] sm:text-xs mt-0.5 leading-normal break-words">
+                <p className="text-slate-300 text-[11px] sm:text-xs mt-0.5 leading-normal break-words font-medium">
                   {language === 'ar' ? 'تدخل سريع والمشاريع الكبرى عبر الوطن' : 'Intervention rapide et mégachantiers'}
                 </p>
               </div>
