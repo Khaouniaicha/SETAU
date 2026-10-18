@@ -72,8 +72,8 @@ export default function GaleriePage() {
             {/* Subtitle */}
             <p className="max-w-2xl text-base sm:text-lg text-slate-300 leading-relaxed mb-8">
               {language === 'ar'
-                ? 'توثيق بصري شامل لكافة الورشات الميدانية الكبرى والصغرى المنجزة من طرف مكتب SETAU (66 مشروعاً)، مع تقديم تفصيلي لكامل العتاد السويسري Leica Geosystems المستخدم في القياسات الدقيقة.'
-                : 'Découvrez en toute transparence l\'ensemble de nos interventions sur le terrain (66 chantiers documentés) ainsi que la présentation détaillée de notre instrumentation suisse Leica Geosystems.'}
+                ? 'توثيق بصري شامل لكافة الورشات الميدانية الكبرى والصغرى المنجزة من طرف مكتب SETAU ,  العتاد  Leica Geosystems المستخدم في القياسات الدقيقة.'
+                : 'Documentation visuelle complète des chantiers réalisés par le bureau SETAU et du matériel Leica Geosystems utilisé pour les mesures de haute précision.'}
             </p>
 
             {/* Quick Filter Jumps */}

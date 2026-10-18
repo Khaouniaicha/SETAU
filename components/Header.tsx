@@ -252,17 +252,6 @@ export default function Header() {
 
           {/* Clean Action Cluster: Compact Language Switcher + Primary Quote Button */}
           <div className="flex items-center gap-2.5 sm:gap-3.5">
-            
-            {/* Quick Hotline: Clean & Subtle on Very Large Screens Only */}
-            <a
-              href={`tel:${CABINET_CONFIG.phone1Raw}`}
-              className="hidden 2xl:inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-slate-900/80 border border-slate-800 text-slate-300 hover:text-orange-400 hover:border-orange-500/40 text-xs font-mono transition-all"
-              dir="ltr"
-              title={language === 'ar' ? 'اتصال مباشر بالمكتب' : 'Appeler directement'}
-            >
-              <Phone className="w-3.5 h-3.5 text-orange-500" />
-              <span>0670 20 58 47</span>
-            </a>
 
             {/* Compact 2-Option Language Switcher (AR / FR) */}
             <div className="inline-flex items-center bg-slate-900/90 rounded-full p-0.5 text-[11px] font-bold border border-slate-800">

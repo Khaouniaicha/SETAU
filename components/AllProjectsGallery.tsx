@@ -64,7 +64,7 @@ export default function AllProjectsGallery({ isFullPage = false }: AllProjectsGa
     : ALL_SETAU_IMAGES.slice(0, 6);
 
   const categoryFilterTabs = [
-    { id: 'all', labelAr: `جميع المشاريع والورشات (${SETAU_PROJECTS.length})`, labelFr: `Tous les projets (${SETAU_PROJECTS.length})` },
+    { id: 'all', labelAr: 'جميع المشاريع والورشات', labelFr: 'Tous les projets' },
     { id: 'routes_rail', labelAr: 'طرق وسكك حديدية', labelFr: 'Routes & Rail' },
     { id: 'energie_industrie', labelAr: 'طاقة ومنشآت صناعية', labelFr: 'Énergie & Industrie' },
     { id: 'foncier_bornage', labelAr: 'مسح وقسمة عقارية', labelFr: 'Foncier & Bornage' },
@@ -129,11 +129,6 @@ export default function AllProjectsGallery({ isFullPage = false }: AllProjectsGa
               </>
             )}
           </h2>
-          <p className="mt-3 text-sm sm:text-base text-slate-600 dark:text-slate-400 max-w-3xl leading-relaxed">
-            {language === 'ar'
-              ? 'يوثق مكتب SETAU كل مشروع ميداني باسمه الرسمي ونطاق تدخله، انطلاقاً من المشاريع القومية الكبرى (السكة الحديدية تندوف-بشار، ازدواجية الطرق، مركب بلارة، ومحطات الغاز) إلى المسح العقاري وقسمة التركات والتطهير.'
-              : 'Le bureau SETAU documente chacun de ses projets réels par son intitulé officiel, sa région et son volume photographique : mégaprojets miniers, autoroutiers, industriels et délimitations parcellaires.'}
-          </p>
         </div>
 
         {/* FULL PAGE CONTROLS: View Switcher (By Project vs By Photos) + Category Filters */}
@@ -153,8 +148,8 @@ export default function AllProjectsGallery({ isFullPage = false }: AllProjectsGa
                   <FolderKanban className="w-4 h-4" />
                   <span>
                     {language === 'ar' 
-                      ? `عرض حسب المشاريع (${SETAU_PROJECTS.length} مشروع)` 
-                      : `Par Projets (${SETAU_PROJECTS.length} projets)`}
+                      ? 'عرض حسب المشاريع' 
+                      : 'Par Projets'}
                   </span>
                 </button>
 
@@ -169,14 +164,10 @@ export default function AllProjectsGallery({ isFullPage = false }: AllProjectsGa
                   <Grid className="w-4 h-4" />
                   <span>
                     {language === 'ar' 
-                      ? `عرض كافة الصور (${ALL_SETAU_IMAGES.length} صورة)` 
-                      : `Toutes les photos (${ALL_SETAU_IMAGES.length})`}
+                      ? 'عرض كافة الصور' 
+                      : 'Toutes les photos'}
                   </span>
                 </button>
-              </div>
-
-              <div className="text-xs text-slate-500 dark:text-slate-400 font-medium px-3 hidden md:block">
-                {language === 'ar' ? '15 مشروعاً موثقاً • 66 صورة ميدانية حقيقية' : '15 projets réels • 66 photographies terrain'}
               </div>
             </div>
 
@@ -372,8 +363,8 @@ export default function AllProjectsGallery({ isFullPage = false }: AllProjectsGa
             >
               <span>
                 {language === 'ar' 
-                  ? `عرض جميع مشاريع المكتب الـ ${SETAU_PROJECTS.length} وأرشيف الـ ${ALL_SETAU_IMAGES.length} صورة كاملة`
-                  : `Explorer l'ensemble des ${SETAU_PROJECTS.length} projets & ${ALL_SETAU_IMAGES.length} photographies`}
+                  ? 'عرض جميع مشاريع المكتب وأرشيف الصور'
+                  : 'Explorer l\'ensemble des projets & photographies'}
               </span>
               <ArrowRight className={`w-5 h-5 transition-transform group-hover:translate-x-1 ${isRtl ? 'rotate-180 group-hover:-translate-x-1' : ''}`} />
             </Link>
