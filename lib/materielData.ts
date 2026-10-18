@@ -56,39 +56,6 @@ export const SETAU_MATERIEL: MaterielItem[] = [
     ]
   },
   {
-    id: 'leica-ts03',
-    name: 'Station Totale Manuelle Leica FlexLine TS03',
-    nameAr: 'محطة الرصد الشاملة اليدوية عالية الدقة Leica FlexLine TS03',
-    brand: 'Leica Geosystems (Suisse)',
-    model: 'FlexLine TS03 Manual Total Station',
-    category: 'Mesure Angulaire & Électro-optique',
-    categoryAr: 'محطات القياس الزاوي والمسافي المتكاملة',
-    src: '/materiel/leica-ts03.jpg',
-    precision: 'Prisme : 1 mm + 1.5 ppm | Angulaire : 2" (seconde d\'arc)',
-    precisionAr: 'على العاكس : 1 ملم + 1.5 ppm | دقة الزوايا : 2 ثانية قوسية',
-    specs: [
-      { labelFr: 'Précision angulaire', labelAr: 'الدقة الزاوية', valueFr: '2" (seconde d\'arc)', valueAr: '2 ثانية قوسية' },
-      { labelFr: 'Portée sans prisme (EDM)', labelAr: 'مدى القياس بدون عاكس', valueFr: 'Jusqu\'à 500 mètres (R500)', valueAr: 'حتى 500 متر بالليزر المباشر' },
-      { labelFr: 'Portée sur prisme standard', labelAr: 'مدى القياس مع عاكس', valueFr: '3 500 mètres (GPR1)', valueAr: '3500 متر على العاكس القياسي' },
-      { labelFr: 'Logiciel de terrain embarqué', labelAr: 'البرمجيات الميدانية', valueFr: 'Leica FlexField intuitif & puissant', valueAr: 'برنامج Leica FlexField الحسابي المدمج' },
-      { labelFr: 'Mémoire & Transfert', labelAr: 'الذاكرة ونقل البيانات', valueFr: 'Clé USB, Bluetooth, RS232', valueAr: 'منفذ USB وبلوتوث وتصدير مباشر' },
-    ],
-    descriptionFr: `La station totale Leica FlexLine TS03 est un instrument de mesure tachéométrique de référence pour les travaux de haute précision. Dotée d'un distancemètre électro-optique (EDM) ultra-rapide capable de mesurer des cibles sans réflecteur jusqu'à 500 m et sur prisme à 1 mm + 1.5 ppm, elle combine une précision angulaire de 2 secondes à une optique suisse d'une clarté exemplaire. Son logiciel embarqué Leica FlexField permet le calcul direct de cubatures, l'implantation d'axes et le contrôle d'horizontalité sur les chantiers de construction et d'aménagement VRD.`,
-    descriptionAr: `تعتبر المحطة الشاملة Leica FlexLine TS03 مرجعاً عالمياً في دقة وموثوقية القياسات الميدانية للهندسة المدنية والبناء. تجمع بين قياس المسافات السريع بالليزر بدون عاكس حتى 500 متر، والقياس على العاكس بدقة ملليمترية (1 ملم + 1.5 ppm) ودقة زاوية قدرها ثانيتان قوسيتان. مزودة ببرنامج Leica FlexField الغني بالوظائف الحسابية الميدانية. يعتمد عليها مكتب SETAU في توقيع محاور المنشآت، ضبط استواء القواعد الخرسانية، وحساب كميات الحفر والردم بدقة متناهية.`,
-    applicationsFr: [
-      'Implantation millimétrique d\'axes de bâtiments, semelles et voiles béton',
-      'Calage d\'éléments préfabriqués et structures métalliques industrielles',
-      'Levés topographiques de détail urbain et architectural haute définition',
-      'Calcul immédiat de cubatures et de nivellement de plateformes'
-    ],
-    applicationsAr: [
-      'التوقيع المليمتر لمحاور البنايات، القواعد الخرسانية والجدران الحاملة',
-      'ضبط وتثبيت الهياكل المعدنية والصناعية الثقيلة',
-      'الرفع الطوبوغرافي التفصيلي للنسيج العمراني والمعالم المعمارية',
-      'الحساب الميداني الفوري لمناسيب التسوية ومكعبات الأتربة'
-    ]
-  },
-  {
     id: 'leica-ts07',
     name: 'Station Totale Électronique Leica FlexLine TS07',
     nameAr: 'محطة الرصد الشاملة الإلكترونية Leica FlexLine TS07',

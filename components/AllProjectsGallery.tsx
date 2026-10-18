@@ -27,14 +27,14 @@ export default function AllProjectsGallery({ isFullPage = false }: AllProjectsGa
   const [displayCount, setDisplayCount] = useState<number>(18);
   const [lightboxIndex, setLightboxIndex] = useState<number | null>(null);
 
-  // Selected 6 featured flagship projects for the home page (variety of surveying disciplines)
+  // Selected 6 featured flagship projects matching authentic folder names (Rail, Highways, Energy, Water, Industry, Land)
   const FEATURED_HOME_PROJECTS = [
-    ALL_SETAU_IMAGES[0], // GNSS geodetic reference - Oued Athmania
-    ALL_SETAU_IMAGES[1], // Axis & semelles total station - Chelghoum Laïd
-    ALL_SETAU_IMAGES[2], // Hydraulic & underground networks - Mila
-    ALL_SETAU_IMAGES[4], // Cadastre & morcellement - Teleghma
-    ALL_SETAU_IMAGES[5], // Road alignment & slopes - Ferdjioua
-    ALL_SETAU_IMAGES[7], // Industrial platform & cubatures - Constantine
+    ALL_SETAU_IMAGES[65], // Tindouf - Béchar Mining Railway (950 km)
+    ALL_SETAU_IMAGES[46], // RN 1 Highway Doubling - Ghardaïa
+    ALL_SETAU_IMAGES[58], // Sonatrach Gas Boosting Station - Hassi R'Mel
+    ALL_SETAU_IMAGES[31], // Seawater Desalination Mega-Plant - El Tarf
+    ALL_SETAU_IMAGES[26], // Complexe Sidérurgique de Bellara - El Milia
+    ALL_SETAU_IMAGES[39], // Division parcellaire & calcul de contenance - Messaoud Boudjriou Constantine
   ];
 
   const filteredImages = activeFilter === 'all'
@@ -173,6 +173,13 @@ export default function AllProjectsGallery({ isFullPage = false }: AllProjectsGa
 
               {/* Text Card Body */}
               <div className="p-5 sm:p-6 flex flex-col flex-1">
+                {img.projectNameAr && (
+                  <div className="text-[11px] font-bold text-orange-600 dark:text-orange-400 mb-1.5 flex items-center gap-1.5 line-clamp-1">
+                    <Layers className="w-3.5 h-3.5 shrink-0" />
+                    <span>{language === 'ar' ? img.projectNameAr : img.projectNameFr}</span>
+                  </div>
+                )}
+
                 <h3 className="text-base sm:text-lg font-extrabold text-slate-900 dark:text-white group-hover:text-orange-600 dark:group-hover:text-orange-400 transition-colors line-clamp-2 leading-snug mb-2">
                   {language === 'ar' ? img.titleAr : img.titleFr}
                 </h3>
@@ -259,6 +266,11 @@ export default function AllProjectsGallery({ isFullPage = false }: AllProjectsGa
                   <Layers className="w-4 h-4" />
                 </span>
                 <div className="min-w-0">
+                  {activePhoto.projectNameAr && (
+                    <div className="text-[11px] font-bold text-orange-400 truncate">
+                      {language === 'ar' ? activePhoto.projectNameAr : activePhoto.projectNameFr}
+                    </div>
+                  )}
                   <h4 className="text-sm sm:text-base font-bold text-white truncate">
                     {language === 'ar' ? activePhoto.titleAr : activePhoto.titleFr}
                   </h4>
