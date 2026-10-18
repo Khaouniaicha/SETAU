@@ -230,7 +230,7 @@ export const ALL_SETAU_IMAGES: GalleryImage[] = [
   },
   {
     "id": "img-14",
-    "src": "/gallery/Implantation_réseaux_014.jpg",
+    "src": "/gallery/assets_014.jpg",
     "folder": "Implantation réseaux de AEP",
     "projectNameAr": "توقيع شبكة مياه الشرب AEP",
     "projectNameFr": "Implantation réseaux d'Alimentation en Eau Potable (AEP)",
@@ -245,7 +245,7 @@ export const ALL_SETAU_IMAGES: GalleryImage[] = [
   },
   {
     "id": "img-15",
-    "src": "/gallery/Plan_d_aménagement_015.jpg",
+    "src": "/gallery/assets_015.jpg",
     "folder": "Plan d'aménagement",
     "projectNameAr": "مخطط التهيئة والتقسيم العمراني",
     "projectNameFr": "Plan d'Aménagement Urbain & Foncier",
@@ -260,7 +260,7 @@ export const ALL_SETAU_IMAGES: GalleryImage[] = [
   },
   {
     "id": "img-16",
-    "src": "/gallery/Pose_de_la_couche_de_016.jpg",
+    "src": "/gallery/assets_016.jpg",
     "folder": "Pose de la couche de roulement en bb (cw106)",
     "projectNameAr": "وضع طبقة السير بالخرسانة الإسفلتية (CW 106 متليلي)",
     "projectNameFr": "Pose de la couche de roulement en BB — CW 106 (Metlili)",
@@ -275,7 +275,7 @@ export const ALL_SETAU_IMAGES: GalleryImage[] = [
   },
   {
     "id": "img-17",
-    "src": "/gallery/Pose_de_la_couche_de_017.jpg",
+    "src": "/gallery/assets_017.jpg",
     "folder": "Pose de la couche de roulement en bb (cw106)",
     "projectNameAr": "وضع طبقة السير بالخرسانة الإسفلتية (CW 106 متليلي)",
     "projectNameFr": "Pose de la couche de roulement en BB — CW 106 (Metlili)",
@@ -290,7 +290,7 @@ export const ALL_SETAU_IMAGES: GalleryImage[] = [
   },
   {
     "id": "img-18",
-    "src": "/gallery/Pose_de_la_couche_de_018.jpg",
+    "src": "/gallery/assets_018.jpg",
     "folder": "Pose de la couche de roulement en bb (cw106)",
     "projectNameAr": "وضع طبقة السير بالخرسانة الإسفلتية (CW 106 متليلي)",
     "projectNameFr": "Pose de la couche de roulement en BB — CW 106 (Metlili)",
@@ -305,7 +305,7 @@ export const ALL_SETAU_IMAGES: GalleryImage[] = [
   },
   {
     "id": "img-19",
-    "src": "/gallery/Travaux__réseaux__d_019.jpg",
+    "src": "/gallery/assets_019.jpg",
     "folder": "Travaux  réseaux  d'assainissement",
     "projectNameAr": "أشغال شبكات التطهير والصرف الصحي",
     "projectNameFr": "Travaux Réseaux d'Assainissement",
@@ -320,7 +320,7 @@ export const ALL_SETAU_IMAGES: GalleryImage[] = [
   },
   {
     "id": "img-20",
-    "src": "/gallery/Travaux__réseaux__d_020.jpg",
+    "src": "/gallery/assets_020.jpg",
     "folder": "Travaux  réseaux  d'assainissement",
     "projectNameAr": "أشغال شبكات التطهير والصرف الصحي",
     "projectNameFr": "Travaux Réseaux d'Assainissement",
@@ -335,7 +335,7 @@ export const ALL_SETAU_IMAGES: GalleryImage[] = [
   },
   {
     "id": "img-21",
-    "src": "/gallery/Travaux_de_terrassem_021.jpg",
+    "src": "/gallery/assets_021.jpg",
     "folder": "Travaux de terrassement (commune de Ibn badis wilaya de Constantine)",
     "projectNameAr": "أشغال الحفر والردم — بلدية ابن باديس (قسنطينة)",
     "projectNameFr": "Travaux de terrassement — Commune d'Ibn Badis (Constantine)",
@@ -350,7 +350,7 @@ export const ALL_SETAU_IMAGES: GalleryImage[] = [
   },
   {
     "id": "img-22",
-    "src": "/gallery/Travaux_dédoublement_022.jpg",
+    "src": "/gallery/assets_022.jpg",
     "folder": "Travaux dédoublement de la RN 49 lot 1",
     "projectNameAr": "ازدواجية الطريق الوطني رقم 49 (الحصة 1)",
     "projectNameFr": "Dédoublement de la RN 49 (Lot 1)",
@@ -365,7 +365,7 @@ export const ALL_SETAU_IMAGES: GalleryImage[] = [
   },
   {
     "id": "img-23",
-    "src": "/gallery/Travaux_dédoublement_023.jpg",
+    "src": "/gallery/assets_023.jpg",
     "folder": "Travaux dédoublement de la RN 49 lot 1",
     "projectNameAr": "ازدواجية الطريق الوطني رقم 49 (الحصة 1)",
     "projectNameFr": "Dédoublement de la RN 49 (Lot 1)",
@@ -380,7 +380,7 @@ export const ALL_SETAU_IMAGES: GalleryImage[] = [
   },
   {
     "id": "img-24",
-    "src": "/gallery/Travaux_dédoublement_024.jpg",
+    "src": "/gallery/assets_024.jpg",
     "folder": "Travaux dédoublement de la RN 49 lot 1",
     "projectNameAr": "ازدواجية الطريق الوطني رقم 49 (الحصة 1)",
     "projectNameFr": "Dédoublement de la RN 49 (Lot 1)",
@@ -395,7 +395,7 @@ export const ALL_SETAU_IMAGES: GalleryImage[] = [
   },
   {
     "id": "img-25",
-    "src": "/gallery/Travaux_dédoublement_025.jpg",
+    "src": "/gallery/assets_025.jpg",
     "folder": "Travaux dédoublement de la RN 49 lot 1",
     "projectNameAr": "ازدواجية الطريق الوطني رقم 49 (الحصة 1)",
     "projectNameFr": "Dédoublement de la RN 49 (Lot 1)",
@@ -410,7 +410,7 @@ export const ALL_SETAU_IMAGES: GalleryImage[] = [
   },
   {
     "id": "img-26",
-    "src": "/gallery/Travaux_génie_civil_026.jpg",
+    "src": "/gallery/assets_026.jpg",
     "folder": "Travaux génie civil ( bureau d'études SETAU)",
     "projectNameAr": "أشغال الهندسة المدنية (مكتب الدراسات SETAU)",
     "projectNameFr": "Travaux de Génie Civil (Bureau d'études SETAU)",
@@ -425,7 +425,7 @@ export const ALL_SETAU_IMAGES: GalleryImage[] = [
   },
   {
     "id": "img-27",
-    "src": "/gallery/Travaux_génie_civil_027.jpg",
+    "src": "/gallery/assets_027.jpg",
     "folder": "Travaux génie civil (ballara el milia)",
     "projectNameAr": "أشغال الهندسة المدنية بمركب بلارة للصلب — الميلية",
     "projectNameFr": "Travaux de Génie Civil au Complexe de Bellara (El Milia)",
@@ -441,7 +441,7 @@ export const ALL_SETAU_IMAGES: GalleryImage[] = [
   },
   {
     "id": "img-28",
-    "src": "/gallery/Travaux_génie_civil_028.jpg",
+    "src": "/gallery/assets_028.jpg",
     "folder": "Travaux génie civil (ballara el milia)",
     "projectNameAr": "أشغال الهندسة المدنية بمركب بلارة للصلب — الميلية",
     "projectNameFr": "Travaux de Génie Civil au Complexe de Bellara (El Milia)",
@@ -456,7 +456,7 @@ export const ALL_SETAU_IMAGES: GalleryImage[] = [
   },
   {
     "id": "img-29",
-    "src": "/gallery/Travaux_génie_civil_029.jpg",
+    "src": "/gallery/assets_029.jpg",
     "folder": "Travaux génie civil (ballara el milia)",
     "projectNameAr": "أشغال الهندسة المدنية بمركب بلارة للصلب — الميلية",
     "projectNameFr": "Travaux de Génie Civil au Complexe de Bellara (El Milia)",
@@ -471,7 +471,7 @@ export const ALL_SETAU_IMAGES: GalleryImage[] = [
   },
   {
     "id": "img-30",
-    "src": "/gallery/Travaux_génie_civil_030.jpg",
+    "src": "/gallery/assets_030.jpg",
     "folder": "Travaux génie civil (ballara el milia)",
     "projectNameAr": "أشغال الهندسة المدنية بمركب بلارة للصلب — الميلية",
     "projectNameFr": "Travaux de Génie Civil au Complexe de Bellara (El Milia)",
@@ -486,7 +486,7 @@ export const ALL_SETAU_IMAGES: GalleryImage[] = [
   },
   {
     "id": "img-31",
-    "src": "/gallery/Travaux_génie_civil_031.jpg",
+    "src": "/gallery/assets_031.jpg",
     "folder": "Travaux génie civil (ballara el milia)",
     "projectNameAr": "أشغال الهندسة المدنية بمركب بلارة للصلب — الميلية",
     "projectNameFr": "Travaux de Génie Civil au Complexe de Bellara (El Milia)",
@@ -501,7 +501,7 @@ export const ALL_SETAU_IMAGES: GalleryImage[] = [
   },
   {
     "id": "img-32",
-    "src": "/gallery/Travaux_génie_civil_032.jpg",
+    "src": "/gallery/assets_032.jpg",
     "folder": "Travaux génie civil de la station dessalement (el Tarf)",
     "projectNameAr": "محطة تحلية مياه البحر — كدية الدراوش (الطارف)",
     "projectNameFr": "Station de Dessalement d'Eau de Mer (El Tarf)",
@@ -517,7 +517,7 @@ export const ALL_SETAU_IMAGES: GalleryImage[] = [
   },
   {
     "id": "img-33",
-    "src": "/gallery/Travaux_génie_civil_033.jpg",
+    "src": "/gallery/assets_033.jpg",
     "folder": "Travaux génie civil de la station dessalement (el Tarf)",
     "projectNameAr": "محطة تحلية مياه البحر — كدية الدراوش (الطارف)",
     "projectNameFr": "Station de Dessalement d'Eau de Mer (El Tarf)",
@@ -532,7 +532,7 @@ export const ALL_SETAU_IMAGES: GalleryImage[] = [
   },
   {
     "id": "img-34",
-    "src": "/gallery/Travaux_génie_civil_034.jpg",
+    "src": "/gallery/assets_034.jpg",
     "folder": "Travaux génie civil de la station dessalement (el Tarf)",
     "projectNameAr": "محطة تحلية مياه البحر — كدية الدراوش (الطارف)",
     "projectNameFr": "Station de Dessalement d'Eau de Mer (El Tarf)",
@@ -547,7 +547,7 @@ export const ALL_SETAU_IMAGES: GalleryImage[] = [
   },
   {
     "id": "img-35",
-    "src": "/gallery/Travaux_génie_civil_035.jpg",
+    "src": "/gallery/assets_035.jpg",
     "folder": "Travaux génie civil de la station dessalement (el Tarf)",
     "projectNameAr": "محطة تحلية مياه البحر — كدية الدراوش (الطارف)",
     "projectNameFr": "Station de Dessalement d'Eau de Mer (El Tarf)",
@@ -562,7 +562,7 @@ export const ALL_SETAU_IMAGES: GalleryImage[] = [
   },
   {
     "id": "img-36",
-    "src": "/gallery/Travaux_génie_civil_036.jpg",
+    "src": "/gallery/assets_036.jpg",
     "folder": "Travaux génie civil de la station dessalement (el Tarf)",
     "projectNameAr": "محطة تحلية مياه البحر — كدية الدراوش (الطارف)",
     "projectNameFr": "Station de Dessalement d'Eau de Mer (El Tarf)",
@@ -577,7 +577,7 @@ export const ALL_SETAU_IMAGES: GalleryImage[] = [
   },
   {
     "id": "img-37",
-    "src": "/gallery/Travaux_génie_civil_037.jpg",
+    "src": "/gallery/assets_037.jpg",
     "folder": "Travaux génie civil de la station dessalement (el Tarf)",
     "projectNameAr": "محطة تحلية مياه البحر — كدية الدراوش (الطارف)",
     "projectNameFr": "Station de Dessalement d'Eau de Mer (El Tarf)",
@@ -592,7 +592,7 @@ export const ALL_SETAU_IMAGES: GalleryImage[] = [
   },
   {
     "id": "img-38",
-    "src": "/gallery/Travaux_génie_civil_038.jpg",
+    "src": "/gallery/assets_038.jpg",
     "folder": "Travaux génie civil de la station dessalement (el Tarf)",
     "projectNameAr": "محطة تحلية مياه البحر — كدية الدراوش (الطارف)",
     "projectNameFr": "Station de Dessalement d'Eau de Mer (El Tarf)",
@@ -607,7 +607,7 @@ export const ALL_SETAU_IMAGES: GalleryImage[] = [
   },
   {
     "id": "img-39",
-    "src": "/gallery/Travaux_génie_civil_039.jpg",
+    "src": "/gallery/assets_039.jpg",
     "folder": "Travaux génie civil de la station dessalement (el Tarf)",
     "projectNameAr": "محطة تحلية مياه البحر — كدية الدراوش (الطارف)",
     "projectNameFr": "Station de Dessalement d'Eau de Mer (El Tarf)",
@@ -622,7 +622,7 @@ export const ALL_SETAU_IMAGES: GalleryImage[] = [
   },
   {
     "id": "img-40",
-    "src": "/gallery/حساب_مساحة___تقسيم_ق_040.jpg",
+    "src": "/gallery/assets_040.jpg",
     "folder": "حساب مساحة + تقسيم قطعة ارض فلاحية (بلدية مسعود بوجريو ولاية قسنطينة)",
     "projectNameAr": "حساب المساحة وتقسيم أرض فلاحية — مسعود بوجريو",
     "projectNameFr": "Calcul de contenance et morcellement agricole — Messaoud Boudjriou",
@@ -638,7 +638,7 @@ export const ALL_SETAU_IMAGES: GalleryImage[] = [
   },
   {
     "id": "img-41",
-    "src": "/gallery/حساب_مساحة___تقسيم_ق_041.jpg",
+    "src": "/gallery/assets_041.jpg",
     "folder": "حساب مساحة + تقسيم قطعة ارض فلاحية (بلدية مسعود بوجريو ولاية قسنطينة)",
     "projectNameAr": "حساب المساحة وتقسيم أرض فلاحية — مسعود بوجريو",
     "projectNameFr": "Calcul de contenance et morcellement agricole — Messaoud Boudjriou",
@@ -653,7 +653,7 @@ export const ALL_SETAU_IMAGES: GalleryImage[] = [
   },
   {
     "id": "img-42",
-    "src": "/gallery/حساب_مساحة___تقسيم_ق_042.jpg",
+    "src": "/gallery/assets_042.jpg",
     "folder": "حساب مساحة + تقسيم قطعة ارض فلاحية (بلدية مسعود بوجريو ولاية قسنطينة)",
     "projectNameAr": "حساب المساحة وتقسيم أرض فلاحية — مسعود بوجريو",
     "projectNameFr": "Calcul de contenance et morcellement agricole — Messaoud Boudjriou",
@@ -668,7 +668,7 @@ export const ALL_SETAU_IMAGES: GalleryImage[] = [
   },
   {
     "id": "img-43",
-    "src": "/gallery/حساب_مساحة___تقسيم_ق_043.jpg",
+    "src": "/gallery/assets_043.jpg",
     "folder": "حساب مساحة + تقسيم قطعة ارض فلاحية (بلدية مسعود بوجريو ولاية قسنطينة)",
     "projectNameAr": "حساب المساحة وتقسيم أرض فلاحية — مسعود بوجريو",
     "projectNameFr": "Calcul de contenance et morcellement agricole — Messaoud Boudjriou",
@@ -683,7 +683,7 @@ export const ALL_SETAU_IMAGES: GalleryImage[] = [
   },
   {
     "id": "img-44",
-    "src": "/gallery/قسمة_ودية_لارض_فلاحي_044.jpg",
+    "src": "/gallery/assets_044.jpg",
     "folder": "قسمة ودية لارض فلاحية (قسنطينة)",
     "projectNameAr": "قسمة ودية لأرض فلاحية — ولاية قسنطينة",
     "projectNameFr": "Partage amiable de terrain agricole — Wilaya de Constantine",
@@ -698,7 +698,7 @@ export const ALL_SETAU_IMAGES: GalleryImage[] = [
   },
   {
     "id": "img-45",
-    "src": "/gallery/قسمة_ودية_لارض_فلاحي_045.jpg",
+    "src": "/gallery/assets_045.jpg",
     "folder": "قسمة ودية لارض فلاحية (قسنطينة)",
     "projectNameAr": "قسمة ودية لأرض فلاحية — ولاية قسنطينة",
     "projectNameFr": "Partage amiable de terrain agricole — Wilaya de Constantine",
@@ -713,7 +713,7 @@ export const ALL_SETAU_IMAGES: GalleryImage[] = [
   },
   {
     "id": "img-46",
-    "src": "/gallery/قسمة_ودية_لارض_فلاحي_046.jpg",
+    "src": "/gallery/assets_046.jpg",
     "folder": "قسمة ودية لارض فلاحية (قسنطينة)",
     "projectNameAr": "قسمة ودية لأرض فلاحية — ولاية قسنطينة",
     "projectNameFr": "Partage amiable de terrain agricole — Wilaya de Constantine",
@@ -728,7 +728,7 @@ export const ALL_SETAU_IMAGES: GalleryImage[] = [
   },
   {
     "id": "img-47",
-    "src": "/gallery/مشروع_ازدواجية_الطري_047.jpg",
+    "src": "/gallery/assets_047.jpg",
     "folder": "مشروع ازدواجية الطريق الوطني رقم 1 (شطر ولاية غرداية)",
     "projectNameAr": "ازدواجية الطريق الوطني رقم 1 (شطر غرداية)",
     "projectNameFr": "Dédoublement de la Route Nationale RN 1 (Ghardaïa)",
@@ -744,7 +744,7 @@ export const ALL_SETAU_IMAGES: GalleryImage[] = [
   },
   {
     "id": "img-48",
-    "src": "/gallery/مشروع_ازدواجية_الطري_048.jpg",
+    "src": "/gallery/assets_048.jpg",
     "folder": "مشروع ازدواجية الطريق الوطني رقم 1 (شطر ولاية غرداية)",
     "projectNameAr": "ازدواجية الطريق الوطني رقم 1 (شطر غرداية)",
     "projectNameFr": "Dédoublement de la Route Nationale RN 1 (Ghardaïa)",
@@ -759,7 +759,7 @@ export const ALL_SETAU_IMAGES: GalleryImage[] = [
   },
   {
     "id": "img-49",
-    "src": "/gallery/مشروع_ازدواجية_الطري_049.jpg",
+    "src": "/gallery/assets_049.jpg",
     "folder": "مشروع ازدواجية الطريق الوطني رقم 1 (شطر ولاية غرداية)",
     "projectNameAr": "ازدواجية الطريق الوطني رقم 1 (شطر غرداية)",
     "projectNameFr": "Dédoublement de la Route Nationale RN 1 (Ghardaïa)",
@@ -774,7 +774,7 @@ export const ALL_SETAU_IMAGES: GalleryImage[] = [
   },
   {
     "id": "img-50",
-    "src": "/gallery/مشروع_ازدواجية_الطري_050.jpg",
+    "src": "/gallery/assets_050.jpg",
     "folder": "مشروع ازدواجية الطريق الوطني رقم 1 (شطر ولاية غرداية)",
     "projectNameAr": "ازدواجية الطريق الوطني رقم 1 (شطر غرداية)",
     "projectNameFr": "Dédoublement de la Route Nationale RN 1 (Ghardaïa)",
@@ -789,7 +789,7 @@ export const ALL_SETAU_IMAGES: GalleryImage[] = [
   },
   {
     "id": "img-51",
-    "src": "/gallery/مشروع_ازدواجية_الطري_051.jpg",
+    "src": "/gallery/assets_051.jpg",
     "folder": "مشروع ازدواجية الطريق الوطني رقم 1 (شطر ولاية غرداية)",
     "projectNameAr": "ازدواجية الطريق الوطني رقم 1 (شطر غرداية)",
     "projectNameFr": "Dédoublement de la Route Nationale RN 1 (Ghardaïa)",
@@ -804,7 +804,7 @@ export const ALL_SETAU_IMAGES: GalleryImage[] = [
   },
   {
     "id": "img-52",
-    "src": "/gallery/مشروع_ازدواجية_الطري_052.jpg",
+    "src": "/gallery/assets_052.jpg",
     "folder": "مشروع ازدواجية الطريق الوطني رقم 1 (شطر ولاية غرداية)",
     "projectNameAr": "ازدواجية الطريق الوطني رقم 1 (شطر غرداية)",
     "projectNameFr": "Dédoublement de la Route Nationale RN 1 (Ghardaïa)",
@@ -819,7 +819,7 @@ export const ALL_SETAU_IMAGES: GalleryImage[] = [
   },
   {
     "id": "img-53",
-    "src": "/gallery/مشروع_ازدواجية_الطري_053.jpg",
+    "src": "/gallery/assets_053.jpg",
     "folder": "مشروع ازدواجية الطريق الوطني رقم 1 (شطر ولاية غرداية)",
     "projectNameAr": "ازدواجية الطريق الوطني رقم 1 (شطر غرداية)",
     "projectNameFr": "Dédoublement de la Route Nationale RN 1 (Ghardaïa)",
@@ -834,7 +834,7 @@ export const ALL_SETAU_IMAGES: GalleryImage[] = [
   },
   {
     "id": "img-54",
-    "src": "/gallery/مشروع_ازدواجية_الطري_054.jpg",
+    "src": "/gallery/assets_054.jpg",
     "folder": "مشروع ازدواجية الطريق الوطني رقم 1 (شطر ولاية غرداية)",
     "projectNameAr": "ازدواجية الطريق الوطني رقم 1 (شطر غرداية)",
     "projectNameFr": "Dédoublement de la Route Nationale RN 1 (Ghardaïa)",
@@ -849,7 +849,7 @@ export const ALL_SETAU_IMAGES: GalleryImage[] = [
   },
   {
     "id": "img-55",
-    "src": "/gallery/مشروع_ازدواجية_الطري_055.jpg",
+    "src": "/gallery/assets_055.jpg",
     "folder": "مشروع ازدواجية الطريق الوطني رقم 1 (شطر ولاية غرداية)",
     "projectNameAr": "ازدواجية الطريق الوطني رقم 1 (شطر غرداية)",
     "projectNameFr": "Dédoublement de la Route Nationale RN 1 (Ghardaïa)",
@@ -864,7 +864,7 @@ export const ALL_SETAU_IMAGES: GalleryImage[] = [
   },
   {
     "id": "img-56",
-    "src": "/gallery/مشروع_ازدواجية_الطري_056.jpg",
+    "src": "/gallery/assets_056.jpg",
     "folder": "مشروع ازدواجية الطريق الوطني رقم 1 (شطر ولاية غرداية)",
     "projectNameAr": "ازدواجية الطريق الوطني رقم 1 (شطر غرداية)",
     "projectNameFr": "Dédoublement de la Route Nationale RN 1 (Ghardaïa)",
@@ -879,7 +879,7 @@ export const ALL_SETAU_IMAGES: GalleryImage[] = [
   },
   {
     "id": "img-57",
-    "src": "/gallery/مشروع_ازدواجية_الطري_057.jpg",
+    "src": "/gallery/assets_057.jpg",
     "folder": "مشروع ازدواجية الطريق الوطني رقم 1 (شطر ولاية غرداية)",
     "projectNameAr": "ازدواجية الطريق الولائي CW 106 — متليلي (غرداية)",
     "projectNameFr": "Dédoublement du Chemin de Wilaya CW 106 — Metlili (Ghardaïa)",
@@ -894,7 +894,7 @@ export const ALL_SETAU_IMAGES: GalleryImage[] = [
   },
   {
     "id": "img-58",
-    "src": "/gallery/مشروع_ازدواجية_الطري_058.jpg",
+    "src": "/gallery/assets_058.jpg",
     "folder": "مشروع ازدواجية الطريق الوطني رقم 1 (شطر ولاية غرداية)",
     "projectNameAr": "ازدواجية الطريق الوطني رقم 1 (شطر غرداية)",
     "projectNameFr": "Dédoublement de la Route Nationale RN 1 (Ghardaïa)",
@@ -909,7 +909,7 @@ export const ALL_SETAU_IMAGES: GalleryImage[] = [
   },
   {
     "id": "img-59",
-    "src": "/gallery/مشروع_البوستينڨ_حاسي_059.jpg",
+    "src": "/gallery/assets_059.jpg",
     "folder": "مشروع البوستينڨ حاسي الرمل",
     "projectNameAr": "مشروع البوستينڨ لضغط الغاز — حاسي الرمل (سوناطراك)",
     "projectNameFr": "Projet Boosting Compression Gaz Sonatrach — Hassi R'Mel",
@@ -925,7 +925,7 @@ export const ALL_SETAU_IMAGES: GalleryImage[] = [
   },
   {
     "id": "img-60",
-    "src": "/gallery/مشروع_البوستينڨ_حاسي_060.jpg",
+    "src": "/gallery/assets_060.jpg",
     "folder": "مشروع البوستينڨ حاسي الرمل",
     "projectNameAr": "مشروع البوستينڨ لضغط الغاز — حاسي الرمل (سوناطراك)",
     "projectNameFr": "Projet Boosting Compression Gaz Sonatrach — Hassi R'Mel",
@@ -940,7 +940,7 @@ export const ALL_SETAU_IMAGES: GalleryImage[] = [
   },
   {
     "id": "img-61",
-    "src": "/gallery/مشروع_البوستينڨ_حاسي_061.jpg",
+    "src": "/gallery/assets_061.jpg",
     "folder": "مشروع البوستينڨ حاسي الرمل",
     "projectNameAr": "مشروع البوستينڨ لضغط الغاز — حاسي الرمل (سوناطراك)",
     "projectNameFr": "Projet Boosting Compression Gaz Sonatrach — Hassi R'Mel",
@@ -955,7 +955,7 @@ export const ALL_SETAU_IMAGES: GalleryImage[] = [
   },
   {
     "id": "img-62",
-    "src": "/gallery/مشروع_البوستينڨ_حاسي_062.jpg",
+    "src": "/gallery/assets_062.jpg",
     "folder": "مشروع البوستينڨ حاسي الرمل",
     "projectNameAr": "مشروع البوستينڨ لضغط الغاز — حاسي الرمل (سوناطراك)",
     "projectNameFr": "Projet Boosting Compression Gaz Sonatrach — Hassi R'Mel",
@@ -970,7 +970,7 @@ export const ALL_SETAU_IMAGES: GalleryImage[] = [
   },
   {
     "id": "img-63",
-    "src": "/gallery/مشروع_البوستينڨ_حاسي_063.jpg",
+    "src": "/gallery/assets_063.jpg",
     "folder": "مشروع البوستينڨ حاسي الرمل",
     "projectNameAr": "مشروع البوستينڨ لضغط الغاز — حاسي الرمل (سوناطراك)",
     "projectNameFr": "Projet Boosting Compression Gaz Sonatrach — Hassi R'Mel",
@@ -985,7 +985,7 @@ export const ALL_SETAU_IMAGES: GalleryImage[] = [
   },
   {
     "id": "img-64",
-    "src": "/gallery/مشروع_البوستينڨ_حاسي_064.jpg",
+    "src": "/gallery/assets_064.jpg",
     "folder": "مشروع البوستينڨ حاسي الرمل",
     "projectNameAr": "مشروع البوستينڨ لضغط الغاز — حاسي الرمل (سوناطراك)",
     "projectNameFr": "Projet Boosting Compression Gaz Sonatrach — Hassi R'Mel",
@@ -1000,7 +1000,7 @@ export const ALL_SETAU_IMAGES: GalleryImage[] = [
   },
   {
     "id": "img-65",
-    "src": "/gallery/مشروع_البوستينڨ_حاسي_065.jpg",
+    "src": "/gallery/assets_065.jpg",
     "folder": "مشروع البوستينڨ حاسي الرمل",
     "projectNameAr": "مشروع البوستينڨ لضغط الغاز — حاسي الرمل (سوناطراك)",
     "projectNameFr": "Projet Boosting Compression Gaz Sonatrach — Hassi R'Mel",
@@ -1015,7 +1015,7 @@ export const ALL_SETAU_IMAGES: GalleryImage[] = [
   },
   {
     "id": "img-66",
-    "src": "/gallery/مكتب_الدراسات_الطوبو_066.jpg",
+    "src": "/gallery/assets_066.jpg",
     "folder": "مكتب الدراسات الطوبوغرافية و التهيئة الحضرية  SETAU مشروع السكة الحديدية تندوف بشار",
     "projectNameAr": "مشروع السكة الحديدية المنجمي تندوف — بشار (SETAU)",
     "projectNameFr": "Ligne Ferroviaire Minière Tindouf — Béchar (SETAU)",
@@ -1041,14 +1041,14 @@ export const SETAU_PROJECTS: ProjectItem[] = [
     "category": "routes_rail",
     "categoryAr": "طرق وسكك حديدية",
     "categoryFr": "Routes & Rail",
-    "coverImage": "/gallery/مكتب_الدراسات_الطوبو_066.jpg",
+    "coverImage": "/gallery/assets_066.jpg",
     "descAr": "المساهمة الطبوغرافية لمكتب SETAU في المشروع القومي الاستراتيجي للسكة الحديدية المنجمية تندوف - بشار بطول 950 كم لنقل خام الحديد من غار جبيلات.",
     "descFr": "Contribution géométrique et topographique du bureau SETAU sur le mégaprojet ferroviaire minier Tindouf - Béchar pour le transport du minerai de Gara Djebilet.",
     "isMajorProject": true,
     "photos": [
       {
         "id": "img-66",
-        "src": "/gallery/مكتب_الدراسات_الطوبو_066.jpg",
+        "src": "/gallery/assets_066.jpg",
         "folder": "مكتب الدراسات الطوبوغرافية و التهيئة الحضرية  SETAU مشروع السكة الحديدية تندوف بشار",
         "projectNameAr": "مشروع السكة الحديدية المنجمي تندوف — بشار (SETAU)",
         "projectNameFr": "Ligne Ferroviaire Minière Tindouf — Béchar (SETAU)",
@@ -1074,14 +1074,14 @@ export const SETAU_PROJECTS: ProjectItem[] = [
     "category": "routes_rail",
     "categoryAr": "طرق وسكك حديدية",
     "categoryFr": "Routes & Rail",
-    "coverImage": "/gallery/مشروع_ازدواجية_الطري_047.jpg",
+    "coverImage": "/gallery/assets_047.jpg",
     "descAr": "التوقيع الطبوغرافي الشامل ومتابعة دمك طبقات الأساس، المنشآت الهيدروليكية، وضع الخرسانة الإسفلتية، ومخطط CW106 متليلي وزيارة وزير الأشغال العمومية.",
     "descFr": "Implantation d'axe, contrôle altimétrique, ouvrages hydrauliques, pose d'enrobé, dédoublement CW 106 Metlili et visite ministérielle officielle.",
     "isMajorProject": true,
     "photos": [
       {
         "id": "img-47",
-        "src": "/gallery/مشروع_ازدواجية_الطري_047.jpg",
+        "src": "/gallery/assets_047.jpg",
         "folder": "مشروع ازدواجية الطريق الوطني رقم 1 (شطر ولاية غرداية)",
         "projectNameAr": "ازدواجية الطريق الوطني رقم 1 (شطر غرداية)",
         "projectNameFr": "Dédoublement de la Route Nationale RN 1 (Ghardaïa)",
@@ -1097,7 +1097,7 @@ export const SETAU_PROJECTS: ProjectItem[] = [
       },
       {
         "id": "img-48",
-        "src": "/gallery/مشروع_ازدواجية_الطري_048.jpg",
+        "src": "/gallery/assets_048.jpg",
         "folder": "مشروع ازدواجية الطريق الوطني رقم 1 (شطر ولاية غرداية)",
         "projectNameAr": "ازدواجية الطريق الوطني رقم 1 (شطر غرداية)",
         "projectNameFr": "Dédoublement de la Route Nationale RN 1 (Ghardaïa)",
@@ -1112,7 +1112,7 @@ export const SETAU_PROJECTS: ProjectItem[] = [
       },
       {
         "id": "img-49",
-        "src": "/gallery/مشروع_ازدواجية_الطري_049.jpg",
+        "src": "/gallery/assets_049.jpg",
         "folder": "مشروع ازدواجية الطريق الوطني رقم 1 (شطر ولاية غرداية)",
         "projectNameAr": "ازدواجية الطريق الوطني رقم 1 (شطر غرداية)",
         "projectNameFr": "Dédoublement de la Route Nationale RN 1 (Ghardaïa)",
@@ -1127,7 +1127,7 @@ export const SETAU_PROJECTS: ProjectItem[] = [
       },
       {
         "id": "img-50",
-        "src": "/gallery/مشروع_ازدواجية_الطري_050.jpg",
+        "src": "/gallery/assets_050.jpg",
         "folder": "مشروع ازدواجية الطريق الوطني رقم 1 (شطر ولاية غرداية)",
         "projectNameAr": "ازدواجية الطريق الوطني رقم 1 (شطر غرداية)",
         "projectNameFr": "Dédoublement de la Route Nationale RN 1 (Ghardaïa)",
@@ -1142,7 +1142,7 @@ export const SETAU_PROJECTS: ProjectItem[] = [
       },
       {
         "id": "img-51",
-        "src": "/gallery/مشروع_ازدواجية_الطري_051.jpg",
+        "src": "/gallery/assets_051.jpg",
         "folder": "مشروع ازدواجية الطريق الوطني رقم 1 (شطر ولاية غرداية)",
         "projectNameAr": "ازدواجية الطريق الوطني رقم 1 (شطر غرداية)",
         "projectNameFr": "Dédoublement de la Route Nationale RN 1 (Ghardaïa)",
@@ -1157,7 +1157,7 @@ export const SETAU_PROJECTS: ProjectItem[] = [
       },
       {
         "id": "img-52",
-        "src": "/gallery/مشروع_ازدواجية_الطري_052.jpg",
+        "src": "/gallery/assets_052.jpg",
         "folder": "مشروع ازدواجية الطريق الوطني رقم 1 (شطر ولاية غرداية)",
         "projectNameAr": "ازدواجية الطريق الوطني رقم 1 (شطر غرداية)",
         "projectNameFr": "Dédoublement de la Route Nationale RN 1 (Ghardaïa)",
@@ -1172,7 +1172,7 @@ export const SETAU_PROJECTS: ProjectItem[] = [
       },
       {
         "id": "img-53",
-        "src": "/gallery/مشروع_ازدواجية_الطري_053.jpg",
+        "src": "/gallery/assets_053.jpg",
         "folder": "مشروع ازدواجية الطريق الوطني رقم 1 (شطر ولاية غرداية)",
         "projectNameAr": "ازدواجية الطريق الوطني رقم 1 (شطر غرداية)",
         "projectNameFr": "Dédoublement de la Route Nationale RN 1 (Ghardaïa)",
@@ -1187,7 +1187,7 @@ export const SETAU_PROJECTS: ProjectItem[] = [
       },
       {
         "id": "img-54",
-        "src": "/gallery/مشروع_ازدواجية_الطري_054.jpg",
+        "src": "/gallery/assets_054.jpg",
         "folder": "مشروع ازدواجية الطريق الوطني رقم 1 (شطر ولاية غرداية)",
         "projectNameAr": "ازدواجية الطريق الوطني رقم 1 (شطر غرداية)",
         "projectNameFr": "Dédoublement de la Route Nationale RN 1 (Ghardaïa)",
@@ -1202,7 +1202,7 @@ export const SETAU_PROJECTS: ProjectItem[] = [
       },
       {
         "id": "img-55",
-        "src": "/gallery/مشروع_ازدواجية_الطري_055.jpg",
+        "src": "/gallery/assets_055.jpg",
         "folder": "مشروع ازدواجية الطريق الوطني رقم 1 (شطر ولاية غرداية)",
         "projectNameAr": "ازدواجية الطريق الوطني رقم 1 (شطر غرداية)",
         "projectNameFr": "Dédoublement de la Route Nationale RN 1 (Ghardaïa)",
@@ -1217,7 +1217,7 @@ export const SETAU_PROJECTS: ProjectItem[] = [
       },
       {
         "id": "img-56",
-        "src": "/gallery/مشروع_ازدواجية_الطري_056.jpg",
+        "src": "/gallery/assets_056.jpg",
         "folder": "مشروع ازدواجية الطريق الوطني رقم 1 (شطر ولاية غرداية)",
         "projectNameAr": "ازدواجية الطريق الوطني رقم 1 (شطر غرداية)",
         "projectNameFr": "Dédoublement de la Route Nationale RN 1 (Ghardaïa)",
@@ -1232,7 +1232,7 @@ export const SETAU_PROJECTS: ProjectItem[] = [
       },
       {
         "id": "img-57",
-        "src": "/gallery/مشروع_ازدواجية_الطري_057.jpg",
+        "src": "/gallery/assets_057.jpg",
         "folder": "مشروع ازدواجية الطريق الوطني رقم 1 (شطر ولاية غرداية)",
         "projectNameAr": "ازدواجية الطريق الولائي CW 106 — متليلي (غرداية)",
         "projectNameFr": "Dédoublement du Chemin de Wilaya CW 106 — Metlili (Ghardaïa)",
@@ -1247,7 +1247,7 @@ export const SETAU_PROJECTS: ProjectItem[] = [
       },
       {
         "id": "img-58",
-        "src": "/gallery/مشروع_ازدواجية_الطري_058.jpg",
+        "src": "/gallery/assets_058.jpg",
         "folder": "مشروع ازدواجية الطريق الوطني رقم 1 (شطر ولاية غرداية)",
         "projectNameAr": "ازدواجية الطريق الوطني رقم 1 (شطر غرداية)",
         "projectNameFr": "Dédoublement de la Route Nationale RN 1 (Ghardaïa)",
@@ -1272,14 +1272,14 @@ export const SETAU_PROJECTS: ProjectItem[] = [
     "category": "energie_industrie",
     "categoryAr": "طاقة ومصانع",
     "categoryFr": "Énergie & Industrie",
-    "coverImage": "/gallery/مشروع_البوستينڨ_حاسي_059.jpg",
+    "coverImage": "/gallery/assets_059.jpg",
     "descAr": "التوقيع المليمتر لمحاور قواعد التوربينات وضواغط الغاز العملاقة، شبكات الأنابيب عالية الضغط، ورصد استقرار القواعد الديناميكية لحساب مجمع سوناطراك.",
     "descFr": "Implantation millimétrique des massifs lourds pour turbocompresseurs de gaz, géoréférencement de gazoducs et suivi d'auscultation dynamique.",
     "isMajorProject": true,
     "photos": [
       {
         "id": "img-59",
-        "src": "/gallery/مشروع_البوستينڨ_حاسي_059.jpg",
+        "src": "/gallery/assets_059.jpg",
         "folder": "مشروع البوستينڨ حاسي الرمل",
         "projectNameAr": "مشروع البوستينڨ لضغط الغاز — حاسي الرمل (سوناطراك)",
         "projectNameFr": "Projet Boosting Compression Gaz Sonatrach — Hassi R'Mel",
@@ -1295,7 +1295,7 @@ export const SETAU_PROJECTS: ProjectItem[] = [
       },
       {
         "id": "img-60",
-        "src": "/gallery/مشروع_البوستينڨ_حاسي_060.jpg",
+        "src": "/gallery/assets_060.jpg",
         "folder": "مشروع البوستينڨ حاسي الرمل",
         "projectNameAr": "مشروع البوستينڨ لضغط الغاز — حاسي الرمل (سوناطراك)",
         "projectNameFr": "Projet Boosting Compression Gaz Sonatrach — Hassi R'Mel",
@@ -1310,7 +1310,7 @@ export const SETAU_PROJECTS: ProjectItem[] = [
       },
       {
         "id": "img-61",
-        "src": "/gallery/مشروع_البوستينڨ_حاسي_061.jpg",
+        "src": "/gallery/assets_061.jpg",
         "folder": "مشروع البوستينڨ حاسي الرمل",
         "projectNameAr": "مشروع البوستينڨ لضغط الغاز — حاسي الرمل (سوناطراك)",
         "projectNameFr": "Projet Boosting Compression Gaz Sonatrach — Hassi R'Mel",
@@ -1325,7 +1325,7 @@ export const SETAU_PROJECTS: ProjectItem[] = [
       },
       {
         "id": "img-62",
-        "src": "/gallery/مشروع_البوستينڨ_حاسي_062.jpg",
+        "src": "/gallery/assets_062.jpg",
         "folder": "مشروع البوستينڨ حاسي الرمل",
         "projectNameAr": "مشروع البوستينڨ لضغط الغاز — حاسي الرمل (سوناطراك)",
         "projectNameFr": "Projet Boosting Compression Gaz Sonatrach — Hassi R'Mel",
@@ -1340,7 +1340,7 @@ export const SETAU_PROJECTS: ProjectItem[] = [
       },
       {
         "id": "img-63",
-        "src": "/gallery/مشروع_البوستينڨ_حاسي_063.jpg",
+        "src": "/gallery/assets_063.jpg",
         "folder": "مشروع البوستينڨ حاسي الرمل",
         "projectNameAr": "مشروع البوستينڨ لضغط الغاز — حاسي الرمل (سوناطراك)",
         "projectNameFr": "Projet Boosting Compression Gaz Sonatrach — Hassi R'Mel",
@@ -1355,7 +1355,7 @@ export const SETAU_PROJECTS: ProjectItem[] = [
       },
       {
         "id": "img-64",
-        "src": "/gallery/مشروع_البوستينڨ_حاسي_064.jpg",
+        "src": "/gallery/assets_064.jpg",
         "folder": "مشروع البوستينڨ حاسي الرمل",
         "projectNameAr": "مشروع البوستينڨ لضغط الغاز — حاسي الرمل (سوناطراك)",
         "projectNameFr": "Projet Boosting Compression Gaz Sonatrach — Hassi R'Mel",
@@ -1370,7 +1370,7 @@ export const SETAU_PROJECTS: ProjectItem[] = [
       },
       {
         "id": "img-65",
-        "src": "/gallery/مشروع_البوستينڨ_حاسي_065.jpg",
+        "src": "/gallery/assets_065.jpg",
         "folder": "مشروع البوستينڨ حاسي الرمل",
         "projectNameAr": "مشروع البوستينڨ لضغط الغاز — حاسي الرمل (سوناطراك)",
         "projectNameFr": "Projet Boosting Compression Gaz Sonatrach — Hassi R'Mel",
@@ -1395,14 +1395,14 @@ export const SETAU_PROJECTS: ProjectItem[] = [
     "category": "energie_industrie",
     "categoryAr": "طاقة ومصانع",
     "categoryFr": "Énergie & Industrie",
-    "coverImage": "/gallery/Travaux_génie_civil_032.jpg",
+    "coverImage": "/gallery/assets_032.jpg",
     "descAr": "توقيع محاور الأساسات الكبرى، أحواض الترسيب ومباني التناضح العكسي، جدران الدعم الوقائية، وأنابيب السحب البحري لمحطة تحلية 300,000 م³/يوم.",
     "descFr": "Implantation des radiers d'osmose inverse, voiles de soutènement, conduites d'aspiration marine et sous-station électrique de la station d'El Tarf.",
     "isMajorProject": true,
     "photos": [
       {
         "id": "img-32",
-        "src": "/gallery/Travaux_génie_civil_032.jpg",
+        "src": "/gallery/assets_032.jpg",
         "folder": "Travaux génie civil de la station dessalement (el Tarf)",
         "projectNameAr": "محطة تحلية مياه البحر — كدية الدراوش (الطارف)",
         "projectNameFr": "Station de Dessalement d'Eau de Mer (El Tarf)",
@@ -1418,7 +1418,7 @@ export const SETAU_PROJECTS: ProjectItem[] = [
       },
       {
         "id": "img-33",
-        "src": "/gallery/Travaux_génie_civil_033.jpg",
+        "src": "/gallery/assets_033.jpg",
         "folder": "Travaux génie civil de la station dessalement (el Tarf)",
         "projectNameAr": "محطة تحلية مياه البحر — كدية الدراوش (الطارف)",
         "projectNameFr": "Station de Dessalement d'Eau de Mer (El Tarf)",
@@ -1433,7 +1433,7 @@ export const SETAU_PROJECTS: ProjectItem[] = [
       },
       {
         "id": "img-34",
-        "src": "/gallery/Travaux_génie_civil_034.jpg",
+        "src": "/gallery/assets_034.jpg",
         "folder": "Travaux génie civil de la station dessalement (el Tarf)",
         "projectNameAr": "محطة تحلية مياه البحر — كدية الدراوش (الطارف)",
         "projectNameFr": "Station de Dessalement d'Eau de Mer (El Tarf)",
@@ -1448,7 +1448,7 @@ export const SETAU_PROJECTS: ProjectItem[] = [
       },
       {
         "id": "img-35",
-        "src": "/gallery/Travaux_génie_civil_035.jpg",
+        "src": "/gallery/assets_035.jpg",
         "folder": "Travaux génie civil de la station dessalement (el Tarf)",
         "projectNameAr": "محطة تحلية مياه البحر — كدية الدراوش (الطارف)",
         "projectNameFr": "Station de Dessalement d'Eau de Mer (El Tarf)",
@@ -1463,7 +1463,7 @@ export const SETAU_PROJECTS: ProjectItem[] = [
       },
       {
         "id": "img-36",
-        "src": "/gallery/Travaux_génie_civil_036.jpg",
+        "src": "/gallery/assets_036.jpg",
         "folder": "Travaux génie civil de la station dessalement (el Tarf)",
         "projectNameAr": "محطة تحلية مياه البحر — كدية الدراوش (الطارف)",
         "projectNameFr": "Station de Dessalement d'Eau de Mer (El Tarf)",
@@ -1478,7 +1478,7 @@ export const SETAU_PROJECTS: ProjectItem[] = [
       },
       {
         "id": "img-37",
-        "src": "/gallery/Travaux_génie_civil_037.jpg",
+        "src": "/gallery/assets_037.jpg",
         "folder": "Travaux génie civil de la station dessalement (el Tarf)",
         "projectNameAr": "محطة تحلية مياه البحر — كدية الدراوش (الطارف)",
         "projectNameFr": "Station de Dessalement d'Eau de Mer (El Tarf)",
@@ -1493,7 +1493,7 @@ export const SETAU_PROJECTS: ProjectItem[] = [
       },
       {
         "id": "img-38",
-        "src": "/gallery/Travaux_génie_civil_038.jpg",
+        "src": "/gallery/assets_038.jpg",
         "folder": "Travaux génie civil de la station dessalement (el Tarf)",
         "projectNameAr": "محطة تحلية مياه البحر — كدية الدراوش (الطارف)",
         "projectNameFr": "Station de Dessalement d'Eau de Mer (El Tarf)",
@@ -1508,7 +1508,7 @@ export const SETAU_PROJECTS: ProjectItem[] = [
       },
       {
         "id": "img-39",
-        "src": "/gallery/Travaux_génie_civil_039.jpg",
+        "src": "/gallery/assets_039.jpg",
         "folder": "Travaux génie civil de la station dessalement (el Tarf)",
         "projectNameAr": "محطة تحلية مياه البحر — كدية الدراوش (الطارف)",
         "projectNameFr": "Station de Dessalement d'Eau de Mer (El Tarf)",
@@ -1533,14 +1533,14 @@ export const SETAU_PROJECTS: ProjectItem[] = [
     "category": "energie_industrie",
     "categoryAr": "طاقة ومصانع",
     "categoryFr": "Énergie & Industrie",
-    "coverImage": "/gallery/Travaux_génie_civil_027.jpg",
+    "coverImage": "/gallery/assets_027.jpg",
     "descAr": "توقيع محاور القواعد الخرسانية الضخمة لآلات الدرفلة، مراقبة الشاقولية واستواء الهياكل المعدنية، ومسارات الرافعات الجسرية الثقيلة بمركب بلارة للصلب.",
     "descFr": "Implantation des massifs de laminoirs, contrôle de verticalité des charpentes métalliques et nivellement des rails de ponts roulants à Bellara.",
     "isMajorProject": true,
     "photos": [
       {
         "id": "img-27",
-        "src": "/gallery/Travaux_génie_civil_027.jpg",
+        "src": "/gallery/assets_027.jpg",
         "folder": "Travaux génie civil (ballara el milia)",
         "projectNameAr": "أشغال الهندسة المدنية بمركب بلارة للصلب — الميلية",
         "projectNameFr": "Travaux de Génie Civil au Complexe de Bellara (El Milia)",
@@ -1556,7 +1556,7 @@ export const SETAU_PROJECTS: ProjectItem[] = [
       },
       {
         "id": "img-28",
-        "src": "/gallery/Travaux_génie_civil_028.jpg",
+        "src": "/gallery/assets_028.jpg",
         "folder": "Travaux génie civil (ballara el milia)",
         "projectNameAr": "أشغال الهندسة المدنية بمركب بلارة للصلب — الميلية",
         "projectNameFr": "Travaux de Génie Civil au Complexe de Bellara (El Milia)",
@@ -1571,7 +1571,7 @@ export const SETAU_PROJECTS: ProjectItem[] = [
       },
       {
         "id": "img-29",
-        "src": "/gallery/Travaux_génie_civil_029.jpg",
+        "src": "/gallery/assets_029.jpg",
         "folder": "Travaux génie civil (ballara el milia)",
         "projectNameAr": "أشغال الهندسة المدنية بمركب بلارة للصلب — الميلية",
         "projectNameFr": "Travaux de Génie Civil au Complexe de Bellara (El Milia)",
@@ -1586,7 +1586,7 @@ export const SETAU_PROJECTS: ProjectItem[] = [
       },
       {
         "id": "img-30",
-        "src": "/gallery/Travaux_génie_civil_030.jpg",
+        "src": "/gallery/assets_030.jpg",
         "folder": "Travaux génie civil (ballara el milia)",
         "projectNameAr": "أشغال الهندسة المدنية بمركب بلارة للصلب — الميلية",
         "projectNameFr": "Travaux de Génie Civil au Complexe de Bellara (El Milia)",
@@ -1601,7 +1601,7 @@ export const SETAU_PROJECTS: ProjectItem[] = [
       },
       {
         "id": "img-31",
-        "src": "/gallery/Travaux_génie_civil_031.jpg",
+        "src": "/gallery/assets_031.jpg",
         "folder": "Travaux génie civil (ballara el milia)",
         "projectNameAr": "أشغال الهندسة المدنية بمركب بلارة للصلب — الميلية",
         "projectNameFr": "Travaux de Génie Civil au Complexe de Bellara (El Milia)",
@@ -1626,14 +1626,14 @@ export const SETAU_PROJECTS: ProjectItem[] = [
     "category": "foncier_bornage",
     "categoryAr": "قسمة ومسح عقاري",
     "categoryFr": "Foncier & Bornage",
-    "coverImage": "/gallery/حساب_مساحة___تقسيم_ق_040.jpg",
+    "coverImage": "/gallery/assets_040.jpg",
     "descAr": "المسح الطبوغرافي الشامل، حساب المساحة بدقة، تثبيت الأنصاب والمعالم الفاصلة بين الشركاء، وإعداد ملف الترقيم العقاري المعتمد لدى المحافظة العقارية.",
     "descFr": "Levé géométrique, calcul de contenance, bornage contradictoire scellé et dossier technique conforme pour publication au cadastre et conservation foncière.",
     "isMajorProject": true,
     "photos": [
       {
         "id": "img-40",
-        "src": "/gallery/حساب_مساحة___تقسيم_ق_040.jpg",
+        "src": "/gallery/assets_040.jpg",
         "folder": "حساب مساحة + تقسيم قطعة ارض فلاحية (بلدية مسعود بوجريو ولاية قسنطينة)",
         "projectNameAr": "حساب المساحة وتقسيم أرض فلاحية — مسعود بوجريو",
         "projectNameFr": "Calcul de contenance et morcellement agricole — Messaoud Boudjriou",
@@ -1649,7 +1649,7 @@ export const SETAU_PROJECTS: ProjectItem[] = [
       },
       {
         "id": "img-41",
-        "src": "/gallery/حساب_مساحة___تقسيم_ق_041.jpg",
+        "src": "/gallery/assets_041.jpg",
         "folder": "حساب مساحة + تقسيم قطعة ارض فلاحية (بلدية مسعود بوجريو ولاية قسنطينة)",
         "projectNameAr": "حساب المساحة وتقسيم أرض فلاحية — مسعود بوجريو",
         "projectNameFr": "Calcul de contenance et morcellement agricole — Messaoud Boudjriou",
@@ -1664,7 +1664,7 @@ export const SETAU_PROJECTS: ProjectItem[] = [
       },
       {
         "id": "img-42",
-        "src": "/gallery/حساب_مساحة___تقسيم_ق_042.jpg",
+        "src": "/gallery/assets_042.jpg",
         "folder": "حساب مساحة + تقسيم قطعة ارض فلاحية (بلدية مسعود بوجريو ولاية قسنطينة)",
         "projectNameAr": "حساب المساحة وتقسيم أرض فلاحية — مسعود بوجريو",
         "projectNameFr": "Calcul de contenance et morcellement agricole — Messaoud Boudjriou",
@@ -1679,7 +1679,7 @@ export const SETAU_PROJECTS: ProjectItem[] = [
       },
       {
         "id": "img-43",
-        "src": "/gallery/حساب_مساحة___تقسيم_ق_043.jpg",
+        "src": "/gallery/assets_043.jpg",
         "folder": "حساب مساحة + تقسيم قطعة ارض فلاحية (بلدية مسعود بوجريو ولاية قسنطينة)",
         "projectNameAr": "حساب المساحة وتقسيم أرض فلاحية — مسعود بوجريو",
         "projectNameFr": "Calcul de contenance et morcellement agricole — Messaoud Boudjriou",
@@ -1704,13 +1704,13 @@ export const SETAU_PROJECTS: ProjectItem[] = [
     "category": "foncier_bornage",
     "categoryAr": "قسمة ومسح عقاري",
     "categoryFr": "Foncier & Bornage",
-    "coverImage": "/gallery/قسمة_ودية_لارض_فلاحي_044.jpg",
+    "coverImage": "/gallery/assets_044.jpg",
     "descAr": "المعاينة الميدانية وقسمة التركات العقارية بالتراضي، رفع التضاريس والمجاري المائية، وغرس معالم إسمنتية تضمن حقوق كافة الملاك والورثة.",
     "descFr": "Opération de partage amiable sur le terrain, délimitation des quotes-parts successorales et scellement des repères parcellaires définitifs.",
     "photos": [
       {
         "id": "img-44",
-        "src": "/gallery/قسمة_ودية_لارض_فلاحي_044.jpg",
+        "src": "/gallery/assets_044.jpg",
         "folder": "قسمة ودية لارض فلاحية (قسنطينة)",
         "projectNameAr": "قسمة ودية لأرض فلاحية — ولاية قسنطينة",
         "projectNameFr": "Partage amiable de terrain agricole — Wilaya de Constantine",
@@ -1725,7 +1725,7 @@ export const SETAU_PROJECTS: ProjectItem[] = [
       },
       {
         "id": "img-45",
-        "src": "/gallery/قسمة_ودية_لارض_فلاحي_045.jpg",
+        "src": "/gallery/assets_045.jpg",
         "folder": "قسمة ودية لارض فلاحية (قسنطينة)",
         "projectNameAr": "قسمة ودية لأرض فلاحية — ولاية قسنطينة",
         "projectNameFr": "Partage amiable de terrain agricole — Wilaya de Constantine",
@@ -1740,7 +1740,7 @@ export const SETAU_PROJECTS: ProjectItem[] = [
       },
       {
         "id": "img-46",
-        "src": "/gallery/قسمة_ودية_لارض_فلاحي_046.jpg",
+        "src": "/gallery/assets_046.jpg",
         "folder": "قسمة ودية لارض فلاحية (قسنطينة)",
         "projectNameAr": "قسمة ودية لأرض فلاحية — ولاية قسنطينة",
         "projectNameFr": "Partage amiable de terrain agricole — Wilaya de Constantine",
@@ -1765,13 +1765,13 @@ export const SETAU_PROJECTS: ProjectItem[] = [
     "category": "routes_rail",
     "categoryAr": "طرق وسكك حديدية",
     "categoryFr": "Routes & Rail",
-    "coverImage": "/gallery/Travaux_dédoublement_022.jpg",
+    "coverImage": "/gallery/assets_022.jpg",
     "descAr": "توقيع المحور الجديد لمشروع ازدواجية RN49، مراقبة مناسيب طبقات الردم الصحراوي، وتوقيع العبارات الهيدروليكية ومحولات الربط المروري.",
     "descFr": "Implantation de l'axe routier dédoublé RN 49, suivi altimétrique des remblais sahariens et piquetage des dalots de décharge hydraulique.",
     "photos": [
       {
         "id": "img-22",
-        "src": "/gallery/Travaux_dédoublement_022.jpg",
+        "src": "/gallery/assets_022.jpg",
         "folder": "Travaux dédoublement de la RN 49 lot 1",
         "projectNameAr": "ازدواجية الطريق الوطني رقم 49 (الحصة 1)",
         "projectNameFr": "Dédoublement de la RN 49 (Lot 1)",
@@ -1786,7 +1786,7 @@ export const SETAU_PROJECTS: ProjectItem[] = [
       },
       {
         "id": "img-23",
-        "src": "/gallery/Travaux_dédoublement_023.jpg",
+        "src": "/gallery/assets_023.jpg",
         "folder": "Travaux dédoublement de la RN 49 lot 1",
         "projectNameAr": "ازدواجية الطريق الوطني رقم 49 (الحصة 1)",
         "projectNameFr": "Dédoublement de la RN 49 (Lot 1)",
@@ -1801,7 +1801,7 @@ export const SETAU_PROJECTS: ProjectItem[] = [
       },
       {
         "id": "img-24",
-        "src": "/gallery/Travaux_dédoublement_024.jpg",
+        "src": "/gallery/assets_024.jpg",
         "folder": "Travaux dédoublement de la RN 49 lot 1",
         "projectNameAr": "ازدواجية الطريق الوطني رقم 49 (الحصة 1)",
         "projectNameFr": "Dédoublement de la RN 49 (Lot 1)",
@@ -1816,7 +1816,7 @@ export const SETAU_PROJECTS: ProjectItem[] = [
       },
       {
         "id": "img-25",
-        "src": "/gallery/Travaux_dédoublement_025.jpg",
+        "src": "/gallery/assets_025.jpg",
         "folder": "Travaux dédoublement de la RN 49 lot 1",
         "projectNameAr": "ازدواجية الطريق الوطني رقم 49 (الحصة 1)",
         "projectNameFr": "Dédoublement de la RN 49 (Lot 1)",
@@ -1841,13 +1841,13 @@ export const SETAU_PROJECTS: ProjectItem[] = [
     "category": "routes_rail",
     "categoryAr": "طرق وسكك حديدية",
     "categoryFr": "Routes & Rail",
-    "coverImage": "/gallery/Pose_de_la_couche_de_016.jpg",
+    "coverImage": "/gallery/assets_016.jpg",
     "descAr": "مراقبة مناسيب وسماكة الخرسانة الإسفلتية، تدقيق المقاطع العرضية لطبقة الأساس، وأشغال الحفر وإعادة تهيئة منعرجات الطريق الولائي CW106.",
     "descFr": "Contrôle altimétrique de la couche de roulement en BB, réception de plateforme routière et rectification du tracé du CW 106 à Metlili.",
     "photos": [
       {
         "id": "img-16",
-        "src": "/gallery/Pose_de_la_couche_de_016.jpg",
+        "src": "/gallery/assets_016.jpg",
         "folder": "Pose de la couche de roulement en bb (cw106)",
         "projectNameAr": "وضع طبقة السير بالخرسانة الإسفلتية (CW 106 متليلي)",
         "projectNameFr": "Pose de la couche de roulement en BB — CW 106 (Metlili)",
@@ -1862,7 +1862,7 @@ export const SETAU_PROJECTS: ProjectItem[] = [
       },
       {
         "id": "img-17",
-        "src": "/gallery/Pose_de_la_couche_de_017.jpg",
+        "src": "/gallery/assets_017.jpg",
         "folder": "Pose de la couche de roulement en bb (cw106)",
         "projectNameAr": "وضع طبقة السير بالخرسانة الإسفلتية (CW 106 متليلي)",
         "projectNameFr": "Pose de la couche de roulement en BB — CW 106 (Metlili)",
@@ -1877,7 +1877,7 @@ export const SETAU_PROJECTS: ProjectItem[] = [
       },
       {
         "id": "img-18",
-        "src": "/gallery/Pose_de_la_couche_de_018.jpg",
+        "src": "/gallery/assets_018.jpg",
         "folder": "Pose de la couche de roulement en bb (cw106)",
         "projectNameAr": "وضع طبقة السير بالخرسانة الإسفلتية (CW 106 متليلي)",
         "projectNameFr": "Pose de la couche de roulement en BB — CW 106 (Metlili)",
@@ -1902,13 +1902,13 @@ export const SETAU_PROJECTS: ProjectItem[] = [
     "category": "terrassement_vrd",
     "categoryAr": "حفر وشبكات VRD",
     "categoryFr": "Terrassement & VRD",
-    "coverImage": "/gallery/Travaux_de_terrassem_021.jpg",
+    "coverImage": "/gallery/assets_021.jpg",
     "descAr": "المسح الطبوغرافي لحساب كميات الحفر والردم والنمذجة الرقمية للتضاريس لأشغال التهيئة ببلدية ابن باديس بولاية قسنطينة.",
     "descFr": "Levé topographique pour calcul précis des cubatures déblais/remblais et modélisation MNT pour aménagement communal à Ibn Badis.",
     "photos": [
       {
         "id": "img-21",
-        "src": "/gallery/Travaux_de_terrassem_021.jpg",
+        "src": "/gallery/assets_021.jpg",
         "folder": "Travaux de terrassement (commune de Ibn badis wilaya de Constantine)",
         "projectNameAr": "أشغال الحفر والردم — بلدية ابن باديس (قسنطينة)",
         "projectNameFr": "Travaux de terrassement — Commune d'Ibn Badis (Constantine)",
@@ -1933,13 +1933,13 @@ export const SETAU_PROJECTS: ProjectItem[] = [
     "category": "terrassement_vrd",
     "categoryAr": "حفر وشبكات VRD",
     "categoryFr": "Terrassement & VRD",
-    "coverImage": "/gallery/Travaux__réseaux__d_019.jpg",
+    "coverImage": "/gallery/assets_019.jpg",
     "descAr": "توقيع مسارات ومناسيب قنوات الصرف الصحي الرئيسية، ضبط ميول الجريان الهيدروليكي، وإعداد مخططات المطابقة النهائية للشبكات المنفذة.",
     "descFr": "Implantation planimétrique et calage altimétrique du fil d'eau des collecteurs d'assainissement et plans de récolement géoréférencés.",
     "photos": [
       {
         "id": "img-19",
-        "src": "/gallery/Travaux__réseaux__d_019.jpg",
+        "src": "/gallery/assets_019.jpg",
         "folder": "Travaux  réseaux  d'assainissement",
         "projectNameAr": "أشغال شبكات التطهير والصرف الصحي",
         "projectNameFr": "Travaux Réseaux d'Assainissement",
@@ -1954,7 +1954,7 @@ export const SETAU_PROJECTS: ProjectItem[] = [
       },
       {
         "id": "img-20",
-        "src": "/gallery/Travaux__réseaux__d_020.jpg",
+        "src": "/gallery/assets_020.jpg",
         "folder": "Travaux  réseaux  d'assainissement",
         "projectNameAr": "أشغال شبكات التطهير والصرف الصحي",
         "projectNameFr": "Travaux Réseaux d'Assainissement",
@@ -1979,13 +1979,13 @@ export const SETAU_PROJECTS: ProjectItem[] = [
     "category": "terrassement_vrd",
     "categoryAr": "حفر وشبكات VRD",
     "categoryFr": "Terrassement & VRD",
-    "coverImage": "/gallery/Implantation_réseaux_014.jpg",
+    "coverImage": "/gallery/assets_014.jpg",
     "descAr": "توقيع مسارات خطوط أنابيب مياه الشرب AEP وغرف الصمامات والتحكم وتحديد أعماق الحفر الآمنة وفق المخططات التنفيذية.",
     "descFr": "Piquetage d'axe des conduites d'adduction d'eau potable AEP et calage précis des chambres de vannes à Mila.",
     "photos": [
       {
         "id": "img-14",
-        "src": "/gallery/Implantation_réseaux_014.jpg",
+        "src": "/gallery/assets_014.jpg",
         "folder": "Implantation réseaux de AEP",
         "projectNameAr": "توقيع شبكة مياه الشرب AEP",
         "projectNameFr": "Implantation réseaux d'Alimentation en Eau Potable (AEP)",
@@ -2010,13 +2010,13 @@ export const SETAU_PROJECTS: ProjectItem[] = [
     "category": "foncier_bornage",
     "categoryAr": "قسمة ومسح عقاري",
     "categoryFr": "Foncier & Bornage",
-    "coverImage": "/gallery/Plan_d_aménagement_015.jpg",
+    "coverImage": "/gallery/assets_015.jpg",
     "descAr": "مخطط طبوغرافي تنفيذي يحدد مسارات الطرق والشبكات الداخلية والارتدادات القانونية ومساحات كل قطعة معتمدة.",
     "descFr": "Plan topographique d'aménagement côté avec emprises de voiries, servitudes d'urbanisme et délimitations parcellaires régularisées.",
     "photos": [
       {
         "id": "img-15",
-        "src": "/gallery/Plan_d_aménagement_015.jpg",
+        "src": "/gallery/assets_015.jpg",
         "folder": "Plan d'aménagement",
         "projectNameAr": "مخطط التهيئة والتقسيم العمراني",
         "projectNameFr": "Plan d'Aménagement Urbain & Foncier",
@@ -2041,13 +2041,13 @@ export const SETAU_PROJECTS: ProjectItem[] = [
     "category": "chantiers_setau",
     "categoryAr": "أجهزة وميدان SETAU",
     "categoryFr": "Équipe & Matériel",
-    "coverImage": "/gallery/Travaux_génie_civil_026.jpg",
+    "coverImage": "/gallery/assets_026.jpg",
     "descAr": "متابعة ميدانية وإشراف طبوغرافي دوري على استواء وتوقيع أساسات وهياكل الهندسة المدنية المنفذة عبر مختلف الورشات.",
     "descFr": "Contrôle géométrique d'exécution des structures de génie civil et suivi métrologique sur chantiers.",
     "photos": [
       {
         "id": "img-26",
-        "src": "/gallery/Travaux_génie_civil_026.jpg",
+        "src": "/gallery/assets_026.jpg",
         "folder": "Travaux génie civil ( bureau d'études SETAU)",
         "projectNameAr": "أشغال الهندسة المدنية (مكتب الدراسات SETAU)",
         "projectNameFr": "Travaux de Génie Civil (Bureau d'études SETAU)",
