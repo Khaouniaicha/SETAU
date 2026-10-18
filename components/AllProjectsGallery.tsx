@@ -121,11 +121,11 @@ export default function AllProjectsGallery({ isFullPage = false }: AllProjectsGa
           <h2>
             {language === 'ar' ? (
               <>
-                مشاريعنا الميدانية الموثقة <em>باسم كل مشروع وعدد صوره</em>
+                المشاريع <em>الميدانية</em>
               </>
             ) : (
               <>
-                Nos projets sur le terrain classés par <em>intitulé de chantier</em>
+                Nos Projets <em>sur le Terrain</em>
               </>
             )}
           </h2>
